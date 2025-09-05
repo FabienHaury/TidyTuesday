@@ -109,52 +109,32 @@ C’est l’objet de la section suivante.
 ---
 
 <!-- 
-## II. Analyse des artistes et œuvres marquantes  
+## II. Analyse des artistes et œuvres marquantes
 
-### 1. Les artistes les plus représentés  
-- **Top artistes par nombre de titres #1**  
-  Exemple attendu : Beatles, Mariah Carey, Rihanna, Drake...  
-- **Top artistes par semaines cumulées au #1**  
-  → Certains artistes dominent moins par le nombre de titres que par la longévité de leurs hits (ex. Lil Nas X avec *Old Town Road*).  
-
-👉 Graphique suggéré : histogramme ou barplot comparant artistes en fonction du nombre de titres et/ou semaines au #1.  
-
----
-
-### 2. Œuvres emblématiques  
-- Identifier les chansons ayant passé le plus de temps au #1 (10+ semaines).  
-- Croiser avec la note `overall_rating` pour voir si longévité rime avec qualité critique.  
-- Mettre en avant quelques titres symboliques de leur décennie.  
-
-👉 Graphique suggéré : scatterplot (semaines au #1 vs. note moyenne), avec mise en avant des records.  
+- Répartition des artistes les plus présents  
+  (ex : *graph_top_10_artist.png*, *tab_artist.png*)  
+- Focus sur la constance des succès  
+  (consécutifs/non consécutifs) et records de longévité  
+  (*graph_top_10_consécutif.png*, *graph_top_10_non_consécutif.png*)  
+- Analyse de l’origine ou diversité géographique des artistes  
+  (*graph_top_10_origine.png*)  
 
 ---
 
-### 3. Les labels dominants  
-- **Répartition par labels** : quels labels ont placé le plus de #1 ?  
-- **Parent labels (majors)** : montrer la concentration du marché autour des “Big Three” (Universal, Sony, Warner).  
-- Analyse historique : par exemple, **Motown** très présente dans les années 1960-70.  
+## III. Analyse des succès et de l’industrie musicale
 
-👉 Graphique suggéré : stack bar ou histogramme par décennie.  
-
----
-
-### 4. Influence des télé-crochets et nouvelles formes de découverte  
-- Analyse de la colonne `talent_contestant`.  
-- Identifier les artistes issus d’**American Idol**, **X-Factor**, **The Voice** etc.  
-- Vérifier l’importance de ces carrières télévisées dans le classement.  
-
-👉 Graphique suggéré : proportion de #1 selon participation (Oui / Non).  
+- Répartition par label et maison de disque  
+  (*tab_parent_label.png*)  
+- Commentaires sur le poids des majors et l’indépendance éventuelle  
 
 ---
 
-### Transition vers la section III  
+## IV. Thématiques, contenus et évolution qualitative
 
-Après avoir mis en évidence les **figures artistiques majeures et les dynamiques de l’industrie**, il devient pertinent d’examiner l’autre dimension tout aussi fondamentale des *Number Ones* : leurs **contenus thématiques et stylistiques**.  
-
-C’est l’objet de la prochaine section.  
-
----
-
-## III. Analyse thématique et stylistique  
+- Analyse des thèmes des chansons via les paroles  
+  (*tab_parole.png*)  
+- Synthèse sur l’évolution des ratings/notes  
+- Zoom sur les meilleures et pires performances  
+  (*graph_max_min_rating.png*, *graph_rating_line.png*)  
 -->
+
