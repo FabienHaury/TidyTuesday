@@ -24,7 +24,6 @@ Voici quelques-unes de mes analyses préférées : *(En construction – plus de
 
 
 ## Ressources utiles
-- [Galerie des contributions](https://tidytuesday-rocks.netlify.app/)
 - [Cheatsheets RStudio](https://www.rstudio.com/resources/cheatsheets/)
 - Data Science Learning Community (2024). Tidy Tuesday: A weekly social data project. [https://tidytues.day](https://tidytues.day)
 
