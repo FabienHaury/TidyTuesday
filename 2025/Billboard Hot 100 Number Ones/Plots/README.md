@@ -118,9 +118,10 @@ C’est l’objet de la section suivante.
   Taylor Swift est la seule artiste dans ce classement n'ayant aucune apparition avant les années 2000 avec sa première apparition en 2012.    
   Seules Madonna et Janet Jackson apparaissent avant et pendant les années 2000.
   Il faut noté qu'être dans le haut du classement ne signifie pas avoir longévité au top 1 avec en moyenne seulement trois semaines à ce niveau.
-- Focus sur la constance des succès  
+- Focus sur la constance des succès
   ![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_top_10_cons%C3%A9cutif.png)
   ![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_top_10_non_cons%C3%A9cutif.png)
+
 
   
 - Analyse de l’origine ou diversité géographique des artistes  
