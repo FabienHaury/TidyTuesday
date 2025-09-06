@@ -154,14 +154,18 @@ La prochaine étape est de comprendre **l’envers du décor industriel** : quel
 
 ---
 
-<!--
+
 ## III. Analyse des succès et de l’industrie musicale  
-- Répartition par label et maison de disque  
-- Graphe : part de marché des majors vs indépendants  
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_top_10_parent_label.png)
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_top_10_label.png)
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_top_10_parent_label_label.png)
+
+[Classement par maison de disque, leur labels respectif par décennie](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_parent_label.png)
+
 - Commentaires sur domination des “Big 3” (Universal, Warner, Sony)  
 
 ---
-
+<!--
 ## IV. Thématiques, contenus et évolution qualitative  
 - Thématiques principales (amour, fête, contestation, empowerment)  
 - Corrélation thèmes vs contextes socio-historiques  
