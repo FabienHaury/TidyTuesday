@@ -4,20 +4,16 @@
 
 </div>
 
-- [Introduction](#introduction-et-problématique)  
+## Sommaire
+- [Introduction et problématique](#introduction-et-problématique)  
 - [Données](#données)  
 - [Méthodologies](#méthodologies)  
 - [Analyse générale](#i-analyse-générale)  
 - [Artistes marquants](#ii-analyse-des-artistes-et-œuvres-marquantes)  
 - [Labels et industrie](#iii-analyse-des-succès-et-de-lindustrie-musicale)  
-- [Thématiques](#iv-thématiques-contents-et-évolution-qualitative)
-
-
-
-
+- [Thématiques](#iv-thématiques-contenus-et-évolution-qualitative)
 
 ## Introduction et problématique  
-
 Pourquoi étudier les *Number Ones* du Billboard ?  
 
 1. **Indicateur de succès commercial**  
