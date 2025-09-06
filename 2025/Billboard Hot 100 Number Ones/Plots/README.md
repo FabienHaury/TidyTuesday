@@ -108,19 +108,27 @@ C’est l’objet de la section suivante.
 
 ---
 
-<!-- 
 ## II. Analyse des artistes et œuvres marquantes
 
 - Répartition des artistes les plus présents  
-  (ex : *graph_top_10_artist.png*, *tab_artist.png*)  
+  ![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_top_10_artist.png)
+  [Classement des artistes](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_artist.png)
+
+  Les Beatles domine le billboard avec 20 apparitions sur seulement six ans (1964-1970) soit en moyenne entre trois et quatre chansons atteigant le top 1 par ans !    
+  Taylor Swift est la seule artiste dans ce classement n'ayant aucune apparition avant les années 2000 avec sa première apparition en 2012.    
+  Seules Madonna et Janet Jackson apparaissent avant et pendant les années 2000.
+  Il faut noté qu'être dans le haut du classement ne signifie pas avoir longévité au top 1 avec en moyenne seulement trois semaines à ce niveau.
 - Focus sur la constance des succès  
-  (consécutifs/non consécutifs) et records de longévité  
-  (*graph_top_10_consécutif.png*, *graph_top_10_non_consécutif.png*)  
+  ![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_top_10_cons%C3%A9cutif.png)
+  ![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_top_10_non_cons%C3%A9cutif.png)
+
+  
 - Analyse de l’origine ou diversité géographique des artistes  
-  (*graph_top_10_origine.png*)  
+  ![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_top_10_origine.png)
+  Ce graphique répresente la nationalité du (bi-nationale) ou des artistes.
 
 ---
-
+<!-- 
 ## III. Analyse des succès et de l’industrie musicale
 
 - Répartition par label et maison de disque  
