@@ -158,8 +158,9 @@ La prochaine étape est de comprendre **l’envers du décor industriel** : quel
 ## III. Analyse des succès et de l’industrie musicale  
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_top_10_parent_label.png)
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_top_10_label.png)
-![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_top_10_parent_label_label.png)
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_top_10_parent_label_label.png)   
 
+[Total des labels détenus par les maisons de disques](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_label_detention.png)    
 [Classement par maison de disque, leur labels respectif par décennie](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_parent_label.png)
 
 - Commentaires sur domination des “Big 3” (Universal, Warner, Sony)  
