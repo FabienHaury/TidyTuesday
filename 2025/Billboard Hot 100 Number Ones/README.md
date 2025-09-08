@@ -11,7 +11,8 @@
 - [Analyse générale](#i-analyse-générale)  
 - [Artistes marquants](#ii-analyse-des-artistes-et-œuvres-marquantes)  
 - [Labels et industrie](#iii-analyse-des-succès-et-de-lindustrie-musicale)  
-- [Thématiques](#iv-thématiques-contents-et-évolution-qualitative)  
+- [Thématiques](#iv-thématiques-et-évolution-qualitative)
+- [Conclusion](#conclusion) 
 
 ---
 
@@ -100,7 +101,7 @@ Un traitement léger des données est effectué avec :
 ---
 
 ### Transition vers la section II   
-Après avoir identifié les **grandes tendances par décennie**, il est temps de zoomer sur les **artistes et chansons emblématiques** qui incarnent ces évolutions.  
+Après avoir identifié les grandes tendances par décennie, il est temps de zoomer sur les artistes et chansons emblématiques qui incarnent ces évolutions.
 
 ---
 
@@ -150,7 +151,7 @@ L’analyse des artistes révèle différents modèles de succès :
 - *Phénomènes mondiaux ponctuels* (Whitney Houston, Lil Nas X).  
 - *Globalisation accrue* (Drake, Shakira, Luis Fonsi).  
 
-La prochaine étape est de comprendre **l’envers du décor industriel** : quels labels et majors fabriquent ces succès ? Quelle part occupent les indépendants ?  
+L’analyse des artistes révèle différents modèles de succès et montre l’influence croissante de la mondialisation. Il convient à présent de comprendre l’envers du décor industriel : quels labels et majors façonnent ces succès et quelle place occupent les indépendants ?
 
 ---
 
@@ -163,13 +164,37 @@ La prochaine étape est de comprendre **l’envers du décor industriel** : quel
 [Total des labels détenus par les maisons de disques](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_label_detention.png)    
 [Classement par maison de disque, leur labels respectif par décennie](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_parent_label.png)
 
-- Commentaires sur domination des “Big 3” (Universal, Warner, Sony)  
+- **Trois majors dominantes** : Sony, Warner Bros., Universal (Vivendi).  
+- **Columbia** tire particulièrement son épingle du jeu, avec plus de 100 apparitions.  
+- Changements de propriétaires visibles sur le temps (ex. Columbia : CBS → Sony).
+
+
+### Transition vers la section IV
+L’analyse des maisons de disques met en évidence leur rôle central dans les succès du Billboard Hot 100. Abordons désormais le contenu même des chansons, avec une exploration des thématiques, des enjeux qualitatifs et des évolutions portées par ces titres numéro un.
 
 ---
-<!--
-## IV. Thématiques, contenus et évolution qualitative  
-- Thématiques principales (amour, fête, contestation, empowerment)  
-- Corrélation thèmes vs contextes socio-historiques  
-- Graphiques : nuages de mots, évolution ratings  
-- Focus meilleures et pires performances  
--->
+## IV. Thématiques et évolution qualitative  
+  ### IV.1. Thématiques des chansons
+  ![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_top_10_parole.png)    
+  [Classement complet des thématiques](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_parole.png)   
+  - Amour, sexe, relations = thèmes centraux.
+  - - La récurrence ≠ longévité.
+
+
+  ### IV.2. Evolution des notes
+  ![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_rating_line.png)
+  ![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_max_min_rating.png)   
+  - Pic absolu en **1964**. Creux en **1990**.
+  - Années 60-80 → extrêmes (notes de 1 à 10).
+  - Années 2000+ → notes plus lissées.
+
+---
+
+## Conclusion  
+
+L’analyse des *Billboard Hot 100 Number Ones* met en évidence :  
+- **Évolution des formats** : plus court depuis le streaming, plus rapide (BPM).  
+- **Dynamiques artistiques** : Beatles → domination rapide, Carey & Swift → longévité.  
+- **Industrie centralisée** : domination persistante des majors.  
+- **Miroir sociologique** : amour reste le thème dominant, mais la mondialisation a ouvert le classement à de nouvelles influences (reggaeton, artistes globaux).  
+
