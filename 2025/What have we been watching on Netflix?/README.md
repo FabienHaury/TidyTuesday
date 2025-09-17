@@ -33,40 +33,46 @@ A full explanation of each dataset column is available at the link above.
 
 ---
 
-## Methodologies 
-Key columns used include:  
-- **report**: Report period, always six month starting from january
-- **title**: Title of the movies or the shows
-- **available_globally?**: Wether the movie or show is available globally
-- **hours_viewed**: Overall total hours spend watching
-- **views**: Numbers of views
-- **runtime**: Duration of the movie or show. For show it represent the total duration of the show, not of an episode
+## Methodologies
+Key columns used include:
+- **report**: Report period, always six months starting from January
+- **title**: Title of the movie or show
+- **available_globally?**: Whether the movie or show is available globally
+- **hours_viewed**: Overall total hours spent watching
+- **views**: Number of views
+- **runtime**: Duration of the movie or show. For shows, this represents the total duration of the series, not an individual episode.
 
-Data processing includes: 
-- Cleaning of **available_globally?** as somes lines contains the value 'available_globally?'
-- Converting **runtime** into **runtime_minutes**, a more suitable format for use
-- Using the new **runtime_minutes** column for creating **runtime_category** that categorise title by duration into different categories with the intend of allowing better insights
-- Removing some **title** in the movies dataset who are show, using a simple search on thoses keywords: "Season", "Series", "Limited Series"
+### Data Processing
+- Cleaning the **available_globally?** column, as some lines incorrectly contain the value `'available_globally?'`
+- Converting **runtime** (e.g., "2h 15m") into **runtime_minutes** (e.g., 135 minutes) for easier analysis
+- Creating a **runtime_category** column to categorize titles by duration, allowing for better insights
+- Removing show titles from the movies dataset using keyword searches for "Season," "Series," and "Limited Series"
 
 ### Categories:
-1. movies dataset:     
-   - **runtime_minutes** < 40 → short
-   - **runtime_minutes** < 75 → short feature
-   - **runtime_minutes** <= 120 → normal
-   - **runtime_minutes** <= 150 → long
-   - **runtime_minutes** <= 180 → very long
-   - **runtime_minutes** > 180 → outlier
-  
- 2. shows dataset:
-  - **runtime_minutes** >= 2 & **runtime_minutes** <= 30 → Ultra-Short
-  - **runtime_minutes** >= 31 & **runtime_minutes** <= 120 → Very short
-  - **runtime_minutes** >= 121 & **runtime_minutes** <= 300 → Short
-  - **runtime_minutes** >= 301 & **runtime_minutes** <= 720 → Standard
-  - **runtime_minutes** >= 721 & **runtime_minutes** <= 1440 → "Long
-  - **runtime_minutes** >= 1441 & **runtime_minutes** <= 3600 → Very Long
-  - **runtime_minutes** >= 3601 & **runtime_minutes** <= 7200 → Epic
-  - **runtime_minutes** >= 7201 & **runtime_minutes** <= 14400 → Marathon
-  - **runtime_minutes** >= 14401 & **runtime_minutes** <= 23853 → Megaseries
+1. **Movies dataset:**
+   | Runtime (minutes) | Category      |
+   |-------------------|---------------|
+   | < 40              | Short         |
+   | 40–74             | Short feature |
+   | 75–120            | Normal        |
+   | 121–150           | Long          |
+   | 151–180           | Very long     |
+   | > 180             | Outlier       |
+
+2. **Shows dataset:**
+   | Runtime (minutes) | Category      |
+   |-------------------|---------------|
+   | 2–30              | Ultra-Short    |
+   | 31–120            | Very short    |
+   | 121–300           | Short         |
+   | 301–720           | Standard      |
+   | 721–1440          | Long          |
+   | 1441–3600         | Very Long     |
+   | 3601–7200         | Epic          |
+   | 7201–14400        | Marathon      |
+   | 14401–23853       | Megaseries    |
+
+   
 ---
 
 ## Analysis
@@ -77,5 +83,5 @@ Data processing includes:
 
 ---
 ## Contact   
-- 📧 [Email](mailto:67912775+FabienHaury@users.noreply.github.com)  
-- 💼 [LinkedIn](https://www.linkedin.com/in/fabienhaury/)
+- 📧 [Email me](mailto:67912775+FabienHaury@users.noreply.github.com)
+- 💼 [Connect on LinkedIn](https://www.linkedin.com/in/fabienhaury/)
