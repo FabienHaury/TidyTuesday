@@ -108,7 +108,30 @@ Now let’s explore which movies topped the charts in each period and check whet
 
 For those interested in a deeper breakdown across multiple metrics for each period, here is a [detailed table](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Tables/tab_movies_report_avail_cat.png).  
 
+### Shows
 
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Graphics/graph_shows_hours.png)   
+
+- 
+
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Graphics/graph_shows_views.png)
+
+-
+
+**Key points:**  
+- 
+- 
+  - 
+  - 
+- 
+- 
+
+Now let’s explore which shows topped the charts in each period and check whether they were available globally. 
+
+
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Tables/tab_shows_best_title.png)   
+
+For those interested in a deeper breakdown across multiple metrics for each period, here is a [detailed table](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Tables/tab_shows_report_avail_cat.png).  
 
 ---
 
