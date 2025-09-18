@@ -62,7 +62,7 @@ Key columns used include:
 2. **Shows dataset:**
    | Runtime (minutes) | Category      |
    |-------------------|---------------|
-   | 2–30              | Ultra-Short    |
+   | 2–30              | Ultra-Short   |
    | 31–120            | Very short    |
    | 121–300           | Short         |
    | 301–720           | Standard      |
@@ -70,7 +70,7 @@ Key columns used include:
    | 1441–3600         | Very Long     |
    | 3601–7200         | Epic          |
    | 7201–14400        | Marathon      |
-   | 14401–23853       | Megaseries    |
+   | 14401+            | Megaseries    |
 
    
 ---
