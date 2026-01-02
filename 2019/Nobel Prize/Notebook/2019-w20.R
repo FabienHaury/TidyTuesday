@@ -26,7 +26,6 @@ nobel_winner_all_pubs <- readr::read_csv(
 # EDA -----
 ## nobel prize timeline ----
 nw_gender <- nobel_winners %>%
-  #filter(prize_year >= 1900 & prize_year <= 1950) |>
   select(prize_year, gender) %>%
   drop_na() %>%
   mutate(prize_year = as.integer(prize_year)) %>%
@@ -207,18 +206,18 @@ plt <- ggplot(nw_gender) +
       size = 10,
       hjust = 0
     )
-    #panel.border = element_rect(colour = "red") # dont forget to remove !
   )
 
-# sauvegarder_graphique_ggplot(
-#   plt,
-#   "2019-05-14",
-#   "graph_nobel_prize_timeline.png",
-#   20,
-#   25,
-#   dpi = 600,
-#   forcer = TRUE
-# )
+sauvegarder_graphique_ggplot(
+  plt,
+  "2019-05-14",
+  "graph_nobel_prize_timeline.png",
+  20,
+  25,
+  dpi = 600
+)
+
+rm(nw_gender, n_min, n_max, year_min, year_max)
 
 ## Birth country ----
 nw_country <- nobel_winners |>
@@ -264,7 +263,7 @@ plt <- ggplot(nw_country) +
   ) +
   scale_x_continuous(
     limits = c(0, 126),
-    breaks = seq(0, 125, 25),
+    breaks = seq(0, 125, 15),
     expand = c(0, 0),
     position = "top"
   ) +
@@ -291,6 +290,7 @@ ragg::agg_png(
   units = "in",
   res = 400
 )
+
 
 print(plt)
 
@@ -330,7 +330,7 @@ grid.text(
 )
 
 grid.text(
-  "Visualisation inspiration from The Economist",
+  "Visualization inspiration from The Economist",
   x = 0.01,
   y = 0.01,
   just = c("left", "bottom"),
@@ -356,6 +356,7 @@ grid.rect(
 
 dev.off()
 
+rm(nw_country)
 ## Most decorated country by category ----
 counts_by_country_cat <- nobel_winners |>
   drop_na(birth_country, category) |>
@@ -454,3 +455,7 @@ sauvegarder_graphique_ggplot(
   15,
   10
 )
+
+rm(counts_by_country_cat, top5_by_category, country_colors, plt)
+
+## AFter ----
