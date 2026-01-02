@@ -54,11 +54,8 @@ A full explanation of each dataset column is available at the link above.
      - Instead of a legend, the words ***men*** and ***women*** appear in their respective line colors.
 
       
- 
-
-
-     
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/2019/Nobel%20Prize/Plots/Graphics/graph_nw_country.png)  
+- The goal was to recreate the overall esthetism from the following [graphic](https://www.economist.com/cdn-cgi/image/width=834,quality=80,format=auto/sites/default/files/images/2021/08/articles/main/20210828_woc034.png)
    
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/2019/Nobel%20Prize/Plots/Graphics/graph_waffle_top5_category.png)    
     
