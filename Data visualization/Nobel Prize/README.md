@@ -36,7 +36,7 @@ A full explanation of each dataset column is available at the link above.
 ## Visualization
 
 ### Gender and Nobel Prizes
-![](https://github.com/FabienHaury/TidyTuesday/blob/main/2019/Nobel%20Prize/Plots/Graphics/graph_nobel_prize_timeline.png)   
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20visualization/Nobel%20Prize/Plots/Graphics/graph_nobel_prize_timeline.png)   
 - The main idea is to show the number of men and women who have won a Nobel Prize.  
   - Points represent the number of prizes won by men and women each year.  
   - Lines connect them to show the difference between the two.  
@@ -65,7 +65,7 @@ A full explanation of each dataset column is available at the link above.
 ---
 
 ### Recreating *The Economist* Style
-![](https://github.com/FabienHaury/TidyTuesday/blob/main/2019/Nobel%20Prize/Plots/Graphics/graph_nw_country.png)  
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20visualization/Nobel%20Prize/Plots/Graphics/graph_nw_country.png)  
 This visualization recreates the sleek style of [The Economist graphic](https://www.economist.com/cdn-cgi/image/width=834,quality=80,format=auto/sites/default/files/images/2021/08/articles/main/20210828_woc034.png).
 
 **Design Elements:**
@@ -82,7 +82,7 @@ This visualization recreates the sleek style of [The Economist graphic](https://
 ---
 
 ### Country-by-Category Waffle Chart
-![](https://github.com/FabienHaury/TidyTuesday/blob/main/2019/Nobel%20Prize/Plots/Graphics/graph_waffle_top5_category.png)   
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20visualization/Nobel%20Prize/Plots/Graphics/graph_waffle_top5_category.png)   
 Inspired by [R Graph Gallery’s waffle chart example](https://r-graph-gallery.com/web-waffle-chart-for-distribution.html).
 
 **Design Goal:**
