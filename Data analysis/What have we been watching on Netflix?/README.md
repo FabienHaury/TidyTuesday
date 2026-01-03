@@ -77,12 +77,12 @@ Key columns used include:
 To improve clarity, the analysis is split into two parts: movies and shows.
 
 ### Movies
-![Graph: Movies by Hours Watched](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Graphics/graph_movies_hours.png)
+![Graph: Movies by Hours Watched](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Graphics/graph_movies_hours.png)
 - The **average viewing time** fluctuates between *2.7 million* and *3.0 million* hours across all periods.
 - Do Netflix customers prefer longer movies? The data suggests **so**. Movies under *150 minutes* consistently fall below the average viewing time, while longer movies generally accumulate more hours watched.
 - The **outlier category** (duration > *180 minutes*) grew from being the third most-watched to becoming the clear leader, peaking at *6.5 million* hours watched. A deeper dive could reveal which films belong to this group and why they stand out.
 
-![Graph: Movies by Views](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Graphics/graph_movies_views.png)
+![Graph: Movies by Views](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Graphics/graph_movies_views.png)
 - The **average views** remain steady at around *1.5 million* across all periods.
 - Surprisingly, the **short category** dominates in terms of views for almost every period except *January–June 2025*.
 - Similar to viewing hours, the **outlier category** has risen to become one of the most popular lengths.
@@ -97,20 +97,20 @@ To improve clarity, the analysis is split into two parts: movies and shows.
 
 Now let’s explore which movies topped the charts in each period and check whether they were available globally.
 
-![Table: Top Movies by Period](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Tables/tab_movies_best_title.png)
+![Table: Top Movies by Period](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Tables/tab_movies_best_title.png)
 - The **normal** duration category dominates here, which contrasts with the earlier observation about viewing hours.
 - Across **all metrics**, movies released globally perform better. While expected, the difference is not enormous—global releases perform roughly **twice as well** as non-global ones.
 
-For a deeper breakdown, see the **[detailed table for movies](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Tables/tab_movies_report_avail_cat.png)**.
+For a deeper breakdown, see the **[detailed table for movies](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Tables/tab_movies_report_avail_cat.png)**.
 
 ---
 
 ### Shows
-![Graph: Shows by Hours Watched](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Graphics/graph_shows_hours.png)
+![Graph: Shows by Hours Watched](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Graphics/graph_shows_hours.png)
 - The **average viewing time** fluctuates between *9.4 million* and *9.7 million* hours across all periods.
 - As expected for shows, the longer the runtime, the more hours are spent viewing. The **three biggest categories**—**Epic**, **Marathon**, and **Megaseries**—dominate the charts.
 
-![Graph: Shows by Views](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Graphics/graph_shows_views.png)
+![Graph: Shows by Views](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Graphics/graph_shows_views.png)
 - The **average views** remain steady at around *1.4 million* across all periods.
 - Surprisingly, the **ultra-short category** dominates in terms of views for every period.
 
@@ -122,11 +122,11 @@ For a deeper breakdown, see the **[detailed table for movies](https://github.com
 
 Now let’s explore which shows topped the charts in each period and check whether they were available globally.
 
-![Table: Top Shows by Period](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Tables/tab_shows_best_title.png)
+![Table: Top Shows by Period](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Tables/tab_shows_best_title.png)
 - Shows running for *2 to 12 hours* (a season) are the ones hitting the top charts, suggesting this is the sweet spot in terms of duration.
 - As expected, shows released globally perform better in every metric.
 
-For a deeper breakdown, see the **[detailed table for shows](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Tables/tab_shows_report_avail_cat.png)**.
+For a deeper breakdown, see the **[detailed table for shows](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Tables/tab_shows_report_avail_cat.png)**.
 
 ---
 
