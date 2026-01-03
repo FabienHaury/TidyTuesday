@@ -65,11 +65,11 @@ The FrogID dataset provides wide coverage across Australia, but observations are
 - States differ significantly in the number of submitted records.  
 - Urban and accessible areas are over-represented, while remote regions show fewer reports.  
 
-![State ranking of frog observations](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Australian%20Frogs/Plots/Tableaux/tab_state_ranking.png)  
+![State ranking of frog observations](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Australian%20Frogs/Plots/Tableaux/tab_state_ranking.png)  
 
 Mapping frog genera reveals distinct distributions. Coastal regions and wetter zones host more frequent calls, while drier inland regions support fewer records.  
 
-![Genus mapping across Australia](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Australian%20Frogs/Plots/Graphics/graph_map_genus.png)  
+![Genus mapping across Australia](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Australian%20Frogs/Plots/Graphics/graph_map_genus.png)  
 
 Focus on specific genera shows unique spatial trends:  
 - *Crinia* is reported widely across Australia except for the central arid areas, reflecting its broad distribution and adaptability to many habitats.  
@@ -77,11 +77,11 @@ Focus on specific genera shows unique spatial trends:
 - *Limnodynastes*, *Pseudophryne*, and *Neobatrachus* each dominate particular habitats.  
 
 <figure>
-  <img src="https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Australian%20Frogs/Plots/Graphics/graph_map_genus_Crinia.png" alt="Crinia distribution">
-  <img src="https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Australian%20Frogs/Plots/Graphics/graph_map_genus_Litoria.png" alt="Litoria distribution">
-  <img src="https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Australian%20Frogs/Plots/Graphics/graph_map_genus_Limnodynastes.png" alt="Limnodynastes distribution">
-  <img src="https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Australian%20Frogs/Plots/Graphics/graph_map_genus_Neobatrachus.png" alt="Neobatrachus distribution">
-  <img src="https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Australian%20Frogs/Plots/Graphics/graph_map_genus_Pseudophryne.png" alt="Pseudophryne distribution">
+  <img src="https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Australian%20Frogs/Plots/Graphics/graph_map_genus_Crinia.png" alt="Crinia distribution">
+  <img src="https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Australian%20Frogs/Plots/Graphics/graph_map_genus_Litoria.png" alt="Litoria distribution">
+  <img src="https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Australian%20Frogs/Plots/Graphics/graph_map_genus_Limnodynastes.png" alt="Limnodynastes distribution">
+  <img src="https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Australian%20Frogs/Plots/Graphics/graph_map_genus_Neobatrachus.png" alt="Neobatrachus distribution">
+  <img src="https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Australian%20Frogs/Plots/Graphics/graph_map_genus_Pseudophryne.png" alt="Pseudophryne distribution">
   <figcaption><em>Note:</em> The areas depicted in these maps represent spatial extents calculated using a <strong>concave hull</strong> of latitude and longitude points where each genus was recorded. This method better follows the shape of recorded points compared to a convex hull, but the mapped areas may still include parts of the landscape where frogs do not occur, as the hull connects outer points to include intermediate regions without confirmed observations.</figcaption>
 </figure>
 
@@ -91,9 +91,9 @@ Some genera dominate the FrogID dataset both in abundance and geographic spread.
 - *Litoria* and *Crinia* are reported most frequently.  
 - Other common genera include *Limnodynastes*, *Neobatrachus*, and *Pseudophryne*.  
 
-[Genus breakdown](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Australian%20Frogs/Plots/Tableaux/tab_genus_breakdown.png)  
+[Genus breakdown](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Australian%20Frogs/Plots/Tableaux/tab_genus_breakdown.png)  
 
-![Top genera distribution](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Australian%20Frogs/Plots/Graphics/graph_map_genus_top_10.png)  
+![Top genera distribution](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Australian%20Frogs/Plots/Graphics/graph_map_genre_top_10.png)  
 
 These patterns may reflect both ecological abundance and call detectability, as some frogs vocalize more readily or loudly than others.
 
@@ -103,12 +103,12 @@ Citizen contributions drive the dataset, yet participation is uneven.
 - A few dedicated individuals—“super-observers”—provide a large share of the recordings.  
 - Many contributors record only once or a handful of times.  
 
-![Top 5 observers](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Australian%20Frogs/Plots/Tableaux/tab_ID_observers_top_5.png)  
-![Top 10 recorders](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Australian%20Frogs/Plots/Graphics/graph_ID_recorder_top_10.png)  
+![Top 5 observers](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Australian%20Frogs/Plots/Tableaux/tab_ID_observers_top_5.png)  
+![Top 10 recorders](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Australian%20Frogs/Plots/Graphics/graph_ID_recorder_top_10.png)  
 
 Time-of-day analysis highlights when frog calls are most likely to be recorded. Predictably, the majority occur during evening and night periods.  
 
-![Top 5 observers by hour](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Australian%20Frogs/Plots/Graphics/graph_ID_observers_top_5_hour.png)  
+![Top 5 observers by hour](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Australian%20Frogs/Plots/Graphics/graph_ID_observers_top_5_hour.png)  
 
 ---
 ### Broader insights and limitations
