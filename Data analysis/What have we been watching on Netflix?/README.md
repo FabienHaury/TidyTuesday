@@ -1,6 +1,8 @@
 <div align="center">
-# What have we been watching on Netflix?
+  
+# What have we been watching on Netflix?     
 *An analysis of Netflix viewership trends*
+
 </div>
 
 ## Table of contents
