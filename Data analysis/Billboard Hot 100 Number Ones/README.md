@@ -67,11 +67,11 @@ Data processing includes:
 ## Analysis  
 ### I. General Analysis  
 **Major statistics by decade**: number of songs, average duration, average BPM, average rating  
-![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_summary_decade.png)  
-- [Summary chart by decade](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_summary_decade.png)  
-- [Average rating by decade](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_rating_decade.png)  
-- [Average duration by decade](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_length_decade.png)  
-- [Average BPM by decade](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_bpm_decade.png)  
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_summary_decade.png)  
+- [Summary chart by decade](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_summary_decade.png)  
+- [Average rating by decade](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_rating_decade.png)  
+- [Average duration by decade](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_length_decade.png)  
+- [Average BPM by decade](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_bpm_decade.png)  
 
 #### Key takeaways:  
 1. **Incomplete decades (1950 and 2020)**  
@@ -95,8 +95,8 @@ After identifying major decade trends, it’s time to zoom in on emblematic arti
 
 ## II. Analysis of Artists and Notable Works  
 ### II.1. Most represented artists  
-![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_top_10_artist.png)  
-[Full ranking of artists](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_artist.png)  
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_top_10_artist.png)  
+[Full ranking of artists](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_artist.png)  
 - **The Beatles**: 20 #1 hits in only 6 years (1964–1970) → unparalleled dominance.  
 - **Mariah Carey**: long career model with seasonal hits like *All I Want for Christmas Is You*.  
 - **Taylor Swift**: debut in 2012, already among the most frequent → fanbase & streaming strategy.  
@@ -105,8 +105,8 @@ After identifying major decade trends, it’s time to zoom in on emblematic arti
 ---
 
 ### II.2. Consistency and longevity of success  
-![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_top_10_cons%C3%A9cutif.png)  
-![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_top_10_non_cons%C3%A9cutif.png)  
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_top_10_cons%C3%A9cutif.png)  
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_top_10_non_cons%C3%A9cutif.png)  
 - **Beatles** → quick multi-hits with short durations (3–4 weeks).  
 - **Whitney Houston**, **Boyz II Men**, **Lil Nas X** (*Old Town Road*) → marathon songs with several months at #1.  
 - Two models of dominance:  
@@ -116,7 +116,7 @@ After identifying major decade trends, it’s time to zoom in on emblematic arti
 ---
 
 ### II.3. Geographic diversity and globalization  
-![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_top_10_origine.png)  
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_top_10_origine.png)  
 - Most artists remain **American** (logical for a US chart).  
 - Emerging hubs:  
   - **UK**: Beatles, Elton John, Adele, Ed Sheeran.  
@@ -136,11 +136,11 @@ Next, analyze the music industry’s role: which labels and majors shape these s
 ---
 
 ## III. Analysis of Success and the Music Industry  
-![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_top_10_parent_label.png)  
-![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_top_10_label.png)  
-![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_top_10_parent_label_label.png)  
-[Total labels owned by record companies](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_label_detention.png)  
-[Ranking by major label and their respective labels by decade](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_parent_label.png)  
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_top_10_parent_label.png)  
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_top_10_label.png)  
+![](https://github.com/FabienHaury/TidyTuesday/tree/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux)  
+[Total labels owned by record companies](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_label_detention.png)  
+[Ranking by major label and their respective labels by decade](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_parent_label.png)  
 - **Three dominant majors**: Sony, Warner Bros., Universal (Vivendi).  
 - **Columbia** stands out with over 100 appearances.  
 - Ownership changes evident over time (e.g., Columbia: CBS → Sony).
@@ -154,14 +154,14 @@ The analysis of record companies highlights their central role in Billboard Hot 
 
 ## IV. Themes and Qualitative Evolution  
 ### IV.1. Song themes  
-![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_top_10_parole.png)  
-[Full theme ranking](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_parole.png)  
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_top_10_parole.png)  
+[Full theme ranking](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Tableaux/tab_parole.png)  
 - Love, sex, relationships = central themes.  
 - Recurrence ≠ longevity.  
 
 ### IV.2. Evolution of ratings  
-![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_rating_line.png)  
-![](https://github.com/FabienHaury/TidyTuesday/blob/main/2025/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_max_min_rating.png)  
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_rating_line.png)  
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Billboard%20Hot%20100%20Number%20Ones/Plots/Graphiques/graph_max_min_rating.png)  
 - Absolute peak in **1964**, trough in **1990**.  
 - 60s-80s → extremes (ratings from 1 to 10).  
 - 2000s+ → smoother ratings.  
