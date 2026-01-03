@@ -24,8 +24,8 @@ This project aims to strengthen my data visualization skills by creating visuals
 The main goal of this project is not to answer a specific research question but to **develop effective and insightful graphics**.  
 The *Methodologies* section will be expanded in the [Visualization](#visualization) part, describing the reasoning and design choices behind each visualization.
 ### Explanation of green VS non-green energy.  
-Green energy means very low CO₂ and useful for climate goals, wind, solar, nuclear, hydro and geothermal are considered *green* for this project.   
-Non-green energy means high CO₂ emissions or other pollution and works against climate goals. 
+**Green energy** means very low CO₂ and useful for climate goals, wind, solar, nuclear, hydro and geothermal are considered *green* for this project.   
+**Non-green energy** means high CO₂ emissions or other pollution and works against climate goals. 
 
 ---
 
@@ -62,7 +62,7 @@ This visualization get inspired by [Karim Douieb](https://camo.githubusercontent
 **Libraries Used:**
 - `dplyr`, `tidyverse`, `ggplot2` for data manipulation and visualization  
 - `tidytuesdayR` for accessing datasets  
-- `ggtext`, `patchwork`, `shadowtext`, `grid`, and `waffle` for graphic customization
+- `ggtext`, `ggbump`, `ggflag` and `grid` for graphic customization
 
 ---
 
