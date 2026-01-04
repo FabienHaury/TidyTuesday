@@ -1,4 +1,9 @@
+<div align="center">
+
 # Nobel Prize
+
+</div>
+
 
 ## Table of Contents
 - [Introduction and Problem Statement](#introduction-and-problem-statement)
