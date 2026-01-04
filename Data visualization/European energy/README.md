@@ -100,7 +100,17 @@ This visualization get inspired by the one done by [Karim Douieb](https://camo.g
 ### Ranking of EU countries by green energy share
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20visualization/European%20energy/Plots/Graphics/graph_ranking_country.png)  
 
-
+The objective of this visualization is to show how each EU country's ranking evolved based on its total *green* energy production between 2016 and 2018.  
+A change in ranking does not necessarily mean that a country produced more or less energy overall — it may simply reflect differences in the *share* of green energy compared to other countries.
+    
+**Design choices:**
+- Using **country flags** instead of names improves readability and allows quick identification of each country.  
+- Displaying **total rank changes** after the last flag — green for a positive change, red for a negative one — provides an immediate sense of movement at a glance.  
+- A small **summary box** showing the largest gains and losses helps contextualize how dynamic or stable the rankings are overall.
+  
+**Areas for improvement:**
+- Apply color to the connecting lines themselves (green or red) for countries that changed position, to reinforce the visual link between movement and trend.  
+- Add an element that gives the chart more visual impact — for example, emphasizing significant movers with highlighted paths or subtle annotations describing possible reasons for the change.
 
 
 
