@@ -1,4 +1,8 @@
-# Nobel Prize
+<div align="center">
+
+# European energy
+
+</div>
 
 ## Table of Contents
 - [Introduction and Problem Statement](#introduction-and-problem-statement)
