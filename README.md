@@ -4,7 +4,6 @@
 
 </div>
 
-
 Welcome to my **TidyTuesday** repository! This project is inspired by the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) initiative from the R4DS community. Each week, I practice manipulating, visualizing, and analyzing various datasets, primarily using **R** and the **tidyverse** packages.
 
 ## What is TidyTuesday?
@@ -31,12 +30,15 @@ Each folder corresponds to a week and contains:
 
 ## Example Visualizations
 
-Here are some of my favorite analyses: *(Under construction – more content coming soon!)*
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20visualization/European%20energy/Plots/Graphics/graph_energy_comp_country.png)
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Australian%20Frogs/Plots/Graphics/graph_map_genre.png)
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/What%20have%20we%20been%20watching%20on%20Netflix%3F/Plots/Tables/tab_shows_best_title.png)
 
 ## Useful Resources
 
 - [RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
 - Data Science Learning Community (2024). Tidy Tuesday: A weekly social data project. [https://tidytues.day](https://tidytues.day)
+- For inspiration [R Gallery](https://r-graph-gallery.com/)
 
 ## Contributing
 
