@@ -49,7 +49,7 @@ A full explanation of each dataset column is available at the link above.
 This visualization get inspired by the one done by [Karim Douieb](https://camo.githubusercontent.com/1562df2eaf88f6319a0c4b4d78d9e58eb187448d476b098fc0fb6d2316619e4a/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f45655653686b6e58304141586273413f666f726d61743d706e67266e616d653d343039367834303936).   
 
 - The main idea was to show the energy production mix for the each country within the European Union.
-  - Before starting doing the graphic, debate come to how to categorize the energy source. Multiple options have been considered:
+  - Before starting doing the graphic, a debate arose on how to categorize the energy source. Multiple options have been considered:
     - 1- Grouping energy in three groups, `non-green`, `green` and `renewable energy` as follow :
       |Energy source|Group|
       |------------|------|
@@ -70,35 +70,34 @@ This visualization get inspired by the one done by [Karim Douieb](https://camo.g
       |Hydro|Green|
     - 3- Keeping them separate but separating the `non-green` and `green` as shown in the point 2 above in the graph by making the `non-green` negative percentage.
   - The third option is on the use in the graphic, for two main reasons :
-    - 1- It differentiate `non-green` and `green` energy by having the 0 percent line as the middle and clearly show each country tendancy on wether they produce more `green` or `non-green` energy.
-    - 2- It help understand that not every country follows the same road on getting more greener as some countries heavily invested on wind energy source, other solar energy or nuclear, etc.
+    - 1- The zero line acts as a visual divider, clearly showing each country's balance between `non-green` and `green` energy.
+    - 2- It highlights how countries follow different paths toward greener energy — some rely more on wind, others on solar or nuclear.
       
 **Color palette:**
-  - To help quickly understand which energy source is which, a set color palette have been assigned to each energy sources.
+  - Each energy source is assigned a consistent color to enable quick visual recognition.
 
-**Organizing the data:**
-  - The data have been ordered from the greener to the least greener country. It instantly show where a country is on the balance of his energy production.
+**Data organization:**
+  - Countries were ordered from the greenest to the least green, immediately showing where each stands on the green–non-green spectrum.
 
 **Title and Subtitle Design:**
 - **Title:**  
-  - *How green is the EU's energy? A 2018 snapshot of member's state energy mix* → indicates the timeframe and what the graphic is showing in a interogative way which help the reader be invested in the reading.  
+  - *How green is the EU's energy? A 2018 snapshot of member's state energy mix* → provides timeframe and context in an engaging, question-based form.    
 - **Subtitle:**  
-  - Describes what’s shown — the total energy source production .  
-  - The words **green** and **non-green** show that there is a separation between thoses two category and help understand that the purpose of the graphic is to show the difference between thoses two.
+  - Describes the total energy production per source and reinforces the *green vs. non-green* distinction.
 
 **Annotations:**
-- Annotations help to highlight some key features.
+- Key insights are highlighted to guide the viewer’s attention.
 
 **Areas for improvement:**
-- Finding a way to shown not only the percentage of energy source but also the total production, like the graphic used as inspiration.
-- Finding a way to approve legend, either by making more interesting or better position.
-- Possibly removing the negative percentage for the `non-green` energy source to remove trouble on how you can produce negative energy.
-- Using full name country instead of two letters. Would require a full rework of x-axis labels to make them readable without requiring the reader to turn their head on the side.
-- Maybe adding the percentage number within each energy source but it will add visual clutering. So maybe add them for only a few selected country.
+- Include both the percentage share and total energy production, as seen in the inspiration chart.  
+- Improve the legend’s layout and readability.  
+- Consider removing negative percentages for `non-green` energy to avoid conceptual confusion. 
+- Replace country codes with full names (requires label redesign for readability).
+- Optionally add percentage labels inside segments — but only for selected countries to prevent clutter.
 
 ---
 
-### Ranking EU country green energy
+### Ranking of EU countries by green energy share
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20visualization/European%20energy/Plots/Graphics/graph_ranking_country.png)  
 
 
