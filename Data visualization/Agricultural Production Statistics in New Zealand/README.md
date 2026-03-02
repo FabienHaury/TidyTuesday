@@ -66,7 +66,10 @@ A full explanation of each dataset column is available at the link above.
     - Each decade has is own color to help visualise quickly each decade.
     - A very light, warm beige background was used to evoke the feel of aged paper and to keep the visualization easy on the eyes.
    
-- aa
+- Area for improvement:
+  - Assess whether the current color palette effectively communicates the magnitude and temporal differences in the data, even if the design itself remains cohesive and visually appealing.
+  - Add direct labels or annotations highlighting minimum and maximum values to make key fluctuations easier to interpret.
+  - Explore small adjustments to decade labeling — such as scaling, contrast, or placement tweaks — to further improve visual balance without changing the current layout logic.
 
 
 
