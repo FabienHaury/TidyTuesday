@@ -33,6 +33,8 @@ The *Methodologies* section will be expanded in the [Visualization](#visualizati
 
 ## Data
 
+“New Zealand’s economy historically relied heavily on agriculture, particularly sheep farming. This dataset tracks herd sizes across decades, offering a window into how agricultural practices and market demands evolved.”
+
 Dataset: [TidyTuesday 2026-02-17](https://github.com/rfordatascience/tidytuesday/blob/main/data/2026/2026-02-17/readme.md)  
 A full explanation of each dataset column is available at the link above.  
 
@@ -45,9 +47,26 @@ A full explanation of each dataset column is available at the link above.
 ### Evolution of sheep population
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20visualization/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_total_sheep.png)   
 
+- Problematic: how to show multiple informations at the same time but without cluttering the graphic.
+  - Showing the sheep population for every year to see the evolution of the population.
+  - Showing the average population for each decade.
+  - Combining those two points in a readable and pleasing way.
 
-
-
+- How the graphic is build:
+  - First, data are filtered to only keep the revelant data about sheep numbers.
+  - If some year are missing then the missing year are added to keep the yearly continuity.
+  - Horizontal segment representing each decades are drawn.
+  - Dot for each year representing the total number of sheep.
+  - Vertical dashed segment are drawn to help visualise the gap between the average line and the dot representing the total for each year.
+  - Adding annotation to explain the missing data.
+  - Adding label for each decade to help the reader visualising the decade.
+  - Working on the aesthetics to make it pleasant/easy on the reader eyes.
+    - Double vertical axis has been added to help readibilty when looking as the most recent year.
+    - Axis are broken to give the information that their are not relatate.
+    - Each decade has is own color to help visualise quickly each decade.
+    - A very light, warm beige background was used to evoke the feel of aged paper and to keep the visualization easy on the eyes.
+   
+- aa
 
 
 
