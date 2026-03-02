@@ -61,7 +61,7 @@ A full explanation of each dataset column is available at the link above.
 **Libraries Used:**
 - `dplyr`, `tidyverse`, `ggplot2` for data manipulation and visualization  
 - `tidytuesdayR` for accessing datasets  
-- `ggrepel` and `pactwork` for graphic customization
+- `ggtext` and `patchwork` for graphic customization
 
 ---
 
