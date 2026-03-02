@@ -23,6 +23,11 @@ This project aims to strengthen my data visualization skills by creating visuals
 
 ---
 
+## Related analyses
+
+A complementary analysis using the same dataset focuses on cereal crops (wheat, barley, etc.) and total farm area in New Zealand. This analysis will be available soon. <img src="https://img.shields.io/badge/Status-Coming%20soon-orange?style=flat" alt="Status Coming soon" width="90" />
+
+---
 ## Methodologies
 
 The main goal of this project is not to answer a specific research question but to **develop effective and insightful graphics**.  
