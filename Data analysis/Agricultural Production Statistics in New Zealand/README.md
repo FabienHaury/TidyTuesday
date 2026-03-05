@@ -1,6 +1,6 @@
 <div align="center">
 
-# Agricultural Production Statistics in New Zealand
+# Agricultural Production Statistics in New Zealand <img src="https://img.shields.io/badge/Status-In%20progress-blue?style=flat" alt="Status In progress" width="80" />
 
 </div>
 
@@ -49,7 +49,40 @@ A full explanation of each dataset column is available at the link above.
   
 
 ### Evolution of crops
-### Evolution if living stocks
+#### Wheat
+|Thing |Value |
+|----- |----- |
+|Starting year|Value1|
+|Ending year|Value2|
+|Min yield|Value3|
+|Max yield|Value3|
+
+
+#### Barley
+|Thing |Value |
+|----- |----- |
+|Starting year|Value1|
+|Ending year|Value2|
+|Min yield|Value3|
+|Max yield|Value3|
+
+#### Maize
+|Thing |Value |
+|----- |----- |
+|Starting year|Value1|
+|Ending year|Value2|
+|Min yield|Value3|
+|Max yield|Value3|
+
+#### Oats
+|Thing |Value |
+|----- |----- |
+|Starting year|Value1|
+|Ending year|Value2|
+|Min yield|Value3|
+|Max yield|Value3|
+
+### Evolution of living stocks
 
 
 
