@@ -56,9 +56,9 @@ A full explanation of each dataset column is available at the link above.
 |Starting year|1935|Year|
 |Ending year|2024|Year|
 |Min yield|72350|Tonnes|
-|Min year|1956|Year|
+|↳ Min year|1956|Year|
 |Max yield|488614|Tonnes|
-|Max year|2012|Year|
+|↳ Max year|2012|Year|
 
 #### Sown
 |Statistic |Value |Units|
@@ -66,9 +66,9 @@ A full explanation of each dataset column is available at the link above.
 |Starting year|1935|Year|
 |Ending year|2002|Year|
 |Min sown|26605|Hectares|
-|Min year|1957|Year|
+|↳ Min year|1957|Year|
 |Max sown|129975|Hectares|
-|Max year|1969|Year|
+|↳ Max year|1969|Year|
 
 #### Harvest
 |Statistic |Value |Units|
@@ -76,9 +76,9 @@ A full explanation of each dataset column is available at the link above.
 |Starting year|2003|Year|
 |Ending year|2024|Year|
 |Min harvested|37962 |Hectares|
-|Min year|2006|Year|
+|↳ Min year|2006|Year|
 |Max harvested|54762|Hectares|
-|Max year|2010|Year|
+|↳ Max year|2010|Year|
 
 
 
@@ -89,9 +89,9 @@ A full explanation of each dataset column is available at the link above.
 |Starting year|1935|Year|
 |Ending year|2024|Year|
 |Min yield|10993|Tonnes|
-|Min year|1935|Year|
+|↳ Min year|1935|Year|
 |Max yield|644369|Tonnes|
-|Max year|1985|Year|
+|↳ Max year|1985|Year|
 
 #### Sown
 |Statistic |Value |Units|
@@ -99,9 +99,9 @@ A full explanation of each dataset column is available at the link above.
 |Starting year|1954|Year|
 |Ending year|2002|Year|
 |Min sown|16865|Hectares|
-|Min year|1955|Year|
+|↳ Min year|1955|Year|
 |Max sown|152332|Hectares|
-|Max year|1985|Year|
+|↳ Max year|1985|Year|
 
 #### Harvest
 |Statistic |Value |Units|
@@ -109,9 +109,9 @@ A full explanation of each dataset column is available at the link above.
 |Starting year|2003|Year|
 |Ending year|2024|Year|
 |Min harvested|41967 |Hectares|
-|Min year|2017|Year|
+|↳ Min year|2017|Year|
 |Max harvested|77669|Hectares|
-|Max year|2009|Year|
+|↳ Max year|2009|Year|
 
 
 
@@ -122,9 +122,9 @@ A full explanation of each dataset column is available at the link above.
 |Starting year|1935|Year|
 |Ending year|2024|Year|
 |Min yield|5128|Tonnes|
-|Min year|1955|Year|
+|↳ Min year|1955|Year|
 |Max yield|244444|Tonnes|
-|Max year|2024|Year|
+|↳ Max year|2024|Year|
 
 #### Sown
 |Statistic |Value |Units|
@@ -132,9 +132,9 @@ A full explanation of each dataset column is available at the link above.
 |Starting year|1957|Year|
 |Ending year|2002|Year|
 |Min sown|2220|Hectares|
-|Min year|1957|Year|
+|↳ Min year|1957|Year|
 |Max sown|28566|Hectares|
-|Max year|1977|Year|
+|↳ Max year|1977|Year|
 
 #### Oats
 #### Yield
@@ -143,9 +143,9 @@ A full explanation of each dataset column is available at the link above.
 |Starting year|1935|Year|
 |Ending year|2024|Year|
 |Min yield|17153|Tonnes|
-|Min year|1954|Year|
+|↳ Min year|1954|Year|
 |Max yield|79677|Tonnes|
-|Max year|1983|Year|
+|↳ Max year|1983|Year|
 
 #### Sown
 |Statistic |Value |Units|
@@ -153,9 +153,9 @@ A full explanation of each dataset column is available at the link above.
 |Starting year|1954|Year|
 |Ending year|2002|Year|
 |Min sown|7353|Hectares|
-|Min year|2022|Year|
+|↳ Min year|2022|Year|
 |Max sown|22863|Hectares|
-|Max year|1957|Year|
+|↳ Max year|1957|Year|
 
 
 
