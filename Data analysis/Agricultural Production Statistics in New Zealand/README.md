@@ -48,8 +48,12 @@ A full explanation of each dataset column is available at the link above.
 ## Analysis
   
 
-### Evolution of crops
-#### Wheat
+### 1-Evolution of crops
+
+#### 1.1-Wheat
+
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_crops_wheat.png)
+
 #### Yield
 |Statistic |Value |Units|
 |----- |----- |-----|
@@ -82,7 +86,10 @@ A full explanation of each dataset column is available at the link above.
 
 
 
-#### Barley
+#### 1.2-Barley
+
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_crops_barley.png)
+
 #### Yield
 |Statistic |Value |Units|
 |----- |----- |-----|
@@ -115,7 +122,10 @@ A full explanation of each dataset column is available at the link above.
 
 
 
-#### Maize
+#### 1.3-Maize
+
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_crops_maize.png)
+
 #### Yield
 |Statistic |Value |Units|
 |----- |----- |-----|
@@ -136,7 +146,11 @@ A full explanation of each dataset column is available at the link above.
 |Max sown|28566|Hectares|
 |↳ Max year|1977|Year|
 
-#### Oats
+
+#### 1.4-Oats
+
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_crops_oats.png)
+
 #### Yield
 |Statistic |Value |Units|
 |----- |----- |-----|
@@ -159,7 +173,7 @@ A full explanation of each dataset column is available at the link above.
 
 
 
-### Evolution of living stocks
+### 2-Evolution of living stocks
 
 
 
