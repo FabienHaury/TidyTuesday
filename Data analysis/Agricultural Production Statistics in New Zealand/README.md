@@ -124,7 +124,7 @@ A full explanation of each dataset column is available at the link above.
 |Min yield|5128|Tonnes|
 |Min year|1955|Year|
 |Max yield|244444|Tonnes|
-|Max year|2044|Year|
+|Max year|2024|Year|
 
 #### Sown
 |Statistic |Value |Units|
