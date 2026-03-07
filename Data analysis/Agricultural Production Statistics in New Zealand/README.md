@@ -59,9 +59,9 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1935|Year|
 |Ending year|2024|Year|
-|Min yield|72350|Tonnes|
+|Min yield|72 350|Tonnes|
 |↳ Min year|1956|Year|
-|Max yield|488614|Tonnes|
+|Max yield|488 614|Tonnes|
 |↳ Max year|2012|Year|
 
 #### Sown
@@ -69,9 +69,9 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1935|Year|
 |Ending year|2002|Year|
-|Min sown|26605|Hectares|
+|Min sown|26 605|Hectares|
 |↳ Min year|1957|Year|
-|Max sown|129975|Hectares|
+|Max sown|129 975|Hectares|
 |↳ Max year|1969|Year|
 
 #### Harvest
@@ -79,9 +79,9 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|2003|Year|
 |Ending year|2024|Year|
-|Min harvested|37962 |Hectares|
+|Min harvested|37 962|Hectares|
 |↳ Min year|2006|Year|
-|Max harvested|54762|Hectares|
+|Max harvested|54 762|Hectares|
 |↳ Max year|2010|Year|
 
 
@@ -95,9 +95,9 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1935|Year|
 |Ending year|2024|Year|
-|Min yield|10993|Tonnes|
+|Min yield|10 993|Tonnes|
 |↳ Min year|1935|Year|
-|Max yield|644369|Tonnes|
+|Max yield|644 369|Tonnes|
 |↳ Max year|1985|Year|
 
 #### Sown
@@ -105,9 +105,9 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1954|Year|
 |Ending year|2002|Year|
-|Min sown|16865|Hectares|
+|Min sown|16 865|Hectares|
 |↳ Min year|1955|Year|
-|Max sown|152332|Hectares|
+|Max sown|152 332|Hectares|
 |↳ Max year|1985|Year|
 
 #### Harvest
@@ -115,9 +115,9 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|2003|Year|
 |Ending year|2024|Year|
-|Min harvested|41967 |Hectares|
+|Min harvested|41 967|Hectares|
 |↳ Min year|2017|Year|
-|Max harvested|77669|Hectares|
+|Max harvested|77 669|Hectares|
 |↳ Max year|2009|Year|
 
 
@@ -141,9 +141,9 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1957|Year|
 |Ending year|2002|Year|
-|Min sown|2220|Hectares|
+|Min sown|2 220|Hectares|
 |↳ Min year|1957|Year|
-|Max sown|28566|Hectares|
+|Max sown|28 566|Hectares|
 |↳ Max year|1977|Year|
 
 
@@ -156,9 +156,9 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1935|Year|
 |Ending year|2024|Year|
-|Min yield|17153|Tonnes|
+|Min yield|17 153|Tonnes|
 |↳ Min year|1954|Year|
-|Max yield|79677|Tonnes|
+|Max yield|79 677|Tonnes|
 |↳ Max year|1983|Year|
 
 #### Sown
@@ -166,15 +166,73 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1954|Year|
 |Ending year|2002|Year|
-|Min sown|7353|Hectares|
+|Min sown|7 353|Hectares|
 |↳ Min year|2022|Year|
-|Max sown|22863|Hectares|
+|Max sown|22 863|Hectares|
 |↳ Max year|1957|Year|
 
 
 
 ### 2-Evolution of living stocks
+#### 2.1-Cattle
+|Statistic |Value |Units|
+|----- |----- |-----|
+|Starting year|1971|Year|
+|Ending year|1999|Year|
+|Min|7 630 482|Number of animals|
+|↳ Min year|1983|Year|
+|Max|9 311 000|Number of animals|
+|↳ Max year|1974|Year|
 
+#### 2.2-Pigs
+|Statistic |Value |Units|
+|----- |----- |-----|
+|Starting year|1971|Year|
+|Ending year|2024|Year|
+|Min number|234 533|Number of animals|
+|↳ Min year|2020|Year|
+|Max number|552 000|Number of animals|
+|↳ Max year|1971|Year|
+
+#### 2.3-Sheeps
+|Statistic |Value |Units|
+|----- |----- |-----|
+|Starting year|1935|Year|
+|Ending year|2024|Year|
+|Min|23 583 001|Number of animals|
+|↳ Min year|2024|Year|
+|Max|70 301 461|Hectares|
+|↳ Max year|1982|Year|
+
+#### 2.4-Goats
+|Statistic |Value |Units|
+|----- |----- |-----|
+|Starting year|1978|Year|
+|Ending year|2022|Year|
+|Min number|28 192|Hectares|
+|↳ Min year|1978|Year|
+|Max number|1 300 680|Number of animals|
+|↳ Max year|1988|Year|
+
+#### 2.5-Deers
+|Statistic |Value |Units|
+|----- |----- |-----|
+|Starting year|1979|Year|
+|Ending year|2024|Year|
+|Min|42 080|Number of animals|
+|↳ Min year|1979|Year|
+|Max|1 756 888|Number of animals|
+|↳ Max year|2004|Year|
+
+#### 2.6-Poultry
+|Statistic |Value |Units|
+|----- |----- |-----|
+|Starting year|2002|Year|
+|Ending year|2024|Year|
+|Min|17 504 212|Number of animals|
+|↳ Min year|2006|Year|
+|Max|25 675 426|Number of animals|
+|↳ Max year|2021|Year|
 
 
 ---
