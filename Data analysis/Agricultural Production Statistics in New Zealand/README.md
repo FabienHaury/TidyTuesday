@@ -21,8 +21,8 @@ New Zealand’s economy has historically relied on agriculture, but how have far
 ### What is *Stat NZ*?
 [Stats NZ](https://www.stats.govt.nz/) is New Zealand’s official data agency, employing over 1,000 staff across Auckland, Wellington, Christchurch, and regional offices. They collect and publish data through censuses and surveys, providing insights into New Zealand’s economy, environment, and society.
 
-### Why study the *StatNZ* dataset?  
-1. Understand long-term trends in agricultural production and their economic impact
+### Why study the *Stat NZ* dataset?  
+1. Understand long-term trends in agricultural production and their economic impact.
 2. Identify shifts in farming practices and their environmental implications.
 3. Inform policy and sustainability efforts in New Zealand’s agricultural sector.
 
@@ -50,13 +50,16 @@ A full explanation of each dataset column is available at the link above.
 
 Data limitation:   
 1- Several years are missing from the dataset.   
-2- Around the early 2000s, data collection shifted from recording *sown* to *harvested* crop areas, which may affect trend comparisons.
+2- Around the early 2000s, data collection shifted from recording *sown* to *harvested* crop areas, which may affect trend comparisons.   
+3- Not all crops have sown or harvested data.
 
 
 ---
 
 ## Methodologies
-
+1. Data preparation/cleaning.   
+   1- While only used in the data visualisation part, a new column *decade* is created to make it possible to calculate aggregate on those time frame.   
+   2- Custom function are created to prevent code repetition and help readibility of the code. Available [here](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Notebook/function.R).
 
 ---
 
