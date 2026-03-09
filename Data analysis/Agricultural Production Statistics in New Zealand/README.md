@@ -7,8 +7,8 @@
 ## Table of Contents
 - [Introduction and Problem Statement](#introduction-and-problem-statement)
 - [Related data visualisation](#related-data-visualisation)
-- [Methodologies](#methodologies)
 - [Data](#data)
+- [Methodologies](#methodologies)
 - [Analysis](#analysis)
 - [Tools](#tools)
 - [Contact](#contact)
@@ -16,13 +16,20 @@
 ---
 
 ## Introduction and Problem Statement
+New Zealand’s economy has historically relied on agriculture, but how have farming practices and outputs evolved over the past century? This analysis explores trends in crop yields, livestock numbers, and farmland use, using data from **Stats NZ** (via **TidyTuesday**). We aim to identify key shifts, possible drivers, and implications for policy and sustainability
+
+### What is *Stat NZ*?
+[Stats NZ](https://www.stats.govt.nz/) is New Zealand’s official data agency, employing over 1,000 staff across Auckland, Wellington, Christchurch, and regional offices. They collect and publish data through censuses and surveys, providing insights into New Zealand’s economy, environment, and society.
+
 ### Why study the *StatNZ* dataset?  
-1. **P1**  
-   Temp text
-2. **P2**  
-   Temp text  
-3. **P3**  
-   Temp text
+1. Understand long-term trends in agricultural production and their economic impact
+2. Identify shifts in farming practices and their environmental implications.
+3. Inform policy and sustainability efforts in New Zealand’s agricultural sector.
+
+### Focus of this analysis.
+This analysis focuses on two main questions:   
+1- How has agricultural production in New Zealand changed over time?
+2- How has livestock production in New Zealand evolved?
 
 This analysis explores what patterns emerge—and what we can and cannot learn—from this unique ecological resource.  
 
@@ -30,13 +37,7 @@ This analysis explores what patterns emerge—and what we can and cannot learn�
 
 ## Related data visualisation
 
-Complementary data visualisation using the same dataset focusing at the total number of sheep in New-Zealand and crops culturecan be found [here](https://github.com/FabienHaury/TidyTuesday/tree/main/Data%20visualization/Agricultural%20Production%20Statistics%20in%20New%20Zealand). <img src="https://img.shields.io/badge/Status-In%20progress-blue?style=flat" alt="Status In progress" width="80" />
-Those graphic are not aim at analysis but rather at displaying a 'one-shot' graphic and improving my skills at data visualisation.
-
----
-## Methodologies
-
-
+Complementary data visualizations using the same dataset, focusing on sheep numbers and crop culture, are available [here](https://github.com/FabienHaury/TidyTuesday/tree/main/Data%20visualization/Agricultural%20Production%20Statistics%20in%20New%20Zealand). These visualizations are designed to showcase data presentation skills and provide a quick overview of key trends. <img src="https://img.shields.io/badge/Status-In%20progress-blue?style=flat" alt="Status In progress" width="80" />
 
 ---
 
@@ -46,6 +47,15 @@ Those graphic are not aim at analysis but rather at displaying a 'one-shot' grap
 
 Dataset: [TidyTuesday 2026-02-17](https://github.com/rfordatascience/tidytuesday/blob/main/data/2026/2026-02-17/readme.md)  
 A full explanation of each dataset column is available at the link above.  
+
+Data limitation:   
+1- Several years are missing from the dataset.   
+2- Around the early 2000s, data collection shifted from recording *sown* to *harvested* crop areas, which may affect trend comparisons.
+
+
+---
+
+## Methodologies
 
 
 ---
