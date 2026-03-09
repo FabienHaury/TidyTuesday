@@ -195,6 +195,7 @@ A full explanation of each dataset column is available at the link above.
 
 ### 3-Evolution of living stocks
 #### 3.1-Cattle
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_stocks_cattle.png)
 |Statistic |Value |Units|
 |----- |----- |-----|
 |Starting year|1971|Year|
@@ -206,6 +207,7 @@ A full explanation of each dataset column is available at the link above.
 |↳ Max year|1974|Year|
 
 #### 3.2-Pigs
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_stocks_pig.png)
 |Statistic |Value |Units|
 |----- |----- |-----|
 |Starting year|1971|Year|
@@ -217,6 +219,7 @@ A full explanation of each dataset column is available at the link above.
 |↳ Max year|1971|Year|
 
 #### 3.3-Sheeps
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_stocks_sheep.png)
 |Statistic |Value |Units|
 |----- |----- |-----|
 |Starting year|1935|Year|
@@ -228,6 +231,7 @@ A full explanation of each dataset column is available at the link above.
 |↳ Max year|1982|Year|
 
 #### 3.4-Goats
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_stocks_goats.png)
 |Statistic |Value |Units|
 |----- |----- |-----|
 |Starting year|1978|Year|
@@ -239,6 +243,7 @@ A full explanation of each dataset column is available at the link above.
 |↳ Max year|1988|Year|
 
 #### 3.5-Deers
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_stocks_deer.png)
 |Statistic |Value |Units|
 |----- |----- |-----|
 |Starting year|1979|Year|
@@ -250,6 +255,7 @@ A full explanation of each dataset column is available at the link above.
 |↳ Max year|2004|Year|
 
 #### 3.6-Poultry
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_stocks_poultry.png)
 |Statistic |Value |Units|
 |----- |----- |-----|
 |Starting year|2002|Year|
