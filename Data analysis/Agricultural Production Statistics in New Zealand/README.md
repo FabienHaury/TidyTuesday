@@ -16,17 +16,22 @@
 ---
 
 ## Introduction and Problem Statement
+### Why study the *StatNZ* dataset?  
+1. **P1**  
+   Temp text
+2. **P2**  
+   Temp text  
+3. **P3**  
+   Temp text
 
-The world of data is an ever-growing field. Covering the full spectrum from gathering and cleaning data to analysis, one aspect is often overlooked: **data visualization**.  
-Even the most thorough analysis can lose its impact if the results are not communicated clearly.  
-
-This project aims to strengthen my data visualization skills by creating visuals that are not only aesthetically appealing but also enhance understanding and deliver clearer insights.
+This analysis explores what patterns emerge—and what we can and cannot learn—from this unique ecological resource.  
 
 ---
 
 ## Related data visualisation
 
-A complementary data visualisation using the same dataset focusing at the total number of sheep in New-Zealand. This data visualisation is available [here](https://github.com/FabienHaury/TidyTuesday/tree/main/Data%20visualization/Agricultural%20Production%20Statistics%20in%20New%20Zealand). <img src="https://img.shields.io/badge/Status-In%20progress-blue?style=flat" alt="Status In progress" width="80" />
+Complementary data visualisation using the same dataset focusing at the total number of sheep in New-Zealand and crops culturecan be found [here](https://github.com/FabienHaury/TidyTuesday/tree/main/Data%20visualization/Agricultural%20Production%20Statistics%20in%20New%20Zealand). <img src="https://img.shields.io/badge/Status-In%20progress-blue?style=flat" alt="Status In progress" width="80" />
+Those graphic are not aim at analysis but rather at displaying a 'one-shot' graphic and improving my skills at data visualisation.
 
 ---
 ## Methodologies
