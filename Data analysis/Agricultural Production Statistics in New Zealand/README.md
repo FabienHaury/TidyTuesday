@@ -28,7 +28,7 @@ New Zealand’s economy has historically relied on agriculture, but how have far
 
 ### Focus of this analysis.
 This analysis focuses on two main questions:   
-1- How has agricultural production in New Zealand changed over time?
+1- How has agricultural production in New Zealand changed over time?   
 2- How has livestock production in New Zealand evolved?
 
 This analysis explores what patterns emerge—and what we can and cannot learn—from this unique ecological resource.  
@@ -42,7 +42,6 @@ Complementary data visualizations using the same dataset, focusing on sheep numb
 ---
 
 ## Data
-
 “New Zealand’s economy historically relied heavily on agriculture, particularly sheep farming. This dataset tracks herd sizes across decades, offering a window into how agricultural practices and market demands evolved.”
 
 Dataset: [TidyTuesday 2026-02-17](https://github.com/rfordatascience/tidytuesday/blob/main/data/2026/2026-02-17/readme.md)  
@@ -57,9 +56,18 @@ Data limitation:
 ---
 
 ## Methodologies
-1. Data preparation/cleaning.   
-   1- While only used in the data visualisation part, a new column *decade* is created to make it possible to calculate aggregate on those time frame.   
-   2- Custom function are created to prevent code repetition and help readibility of the code. Available [here](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Notebook/function.R).
+1. **Data preparation and cleaning**  
+   - Created a derived `decade` variable to enable aggregation and comparison of long‑term trends (mainly used for visualisations).  
+   - Wrapped repeated operations (filtering, summarising, plotting) into custom R functions to reduce duplication and improve readability (see the referenced [function.R](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Notebook/function.R) script).
+
+2. **Descriptive summarisation**  
+   - Implemented a summary function to compute key statistics for each series: start and end years, missing years, minima and maxima (with their years), and units.  
+   - Applied this function consistently across crops and livestock so that metrics remain comparable and can feed directly into the tables and comments in the **Analysis** section.
+
+3. **Visualisation design choices**  
+   - Fixed the x‑axis to `Year` (1935–2025) for all line charts so different crops and livestock can be compared on a common timeline.  
+   - Used free y‑axes that always start at 0 to avoid distorting trends, added numeric suffixes (e.g. thousands, millions) to the axis labels, and specified units (tonnes, hectares, number of animals) in axis title to keep scales interpretable.
+
 
 ---
 
@@ -77,10 +85,9 @@ Data limitation:
 |Max surface|21 376 819|Hectares|
 |↳ Max year|2012|Year|
 
+
 ### 2-Evolution of crops
-
 #### 2.1-Wheat
-
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_crops_wheat.png)
 
 #### Yield
@@ -116,9 +123,7 @@ Data limitation:
 |↳ Max year|2010|Year|
 
 
-
 #### 2.2-Barley
-
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_crops_barley.png)
 
 #### Yield
@@ -148,16 +153,13 @@ Data limitation:
 |----- |----- |-----|
 |Starting year|2003|Year|
 |Ending year|2024|Year|
-
 |Min harvested|41 967|Hectares|
 |↳ Min year|2017|Year|
 |Max harvested|77 669|Hectares|
 |↳ Max year|2009|Year|
 
 
-
 #### 2.3-Maize
-
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_crops_maize.png)
 
 #### Yield
@@ -184,7 +186,6 @@ Data limitation:
 
 
 #### 2.4-Oats
-
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_crops_oats.png)
 
 #### Yield
@@ -210,7 +211,6 @@ Data limitation:
 |↳ Max year|1957|Year|
 
 
-
 ### 3-Evolution of living stocks
 #### 3.1-Cattle
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_stocks_cattle.png)
@@ -224,6 +224,7 @@ Data limitation:
 |Max|9 311 000|Number of animals|
 |↳ Max year|1974|Year|
 
+
 #### 3.2-Pigs
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_stocks_pig.png)
 |Statistic |Value |Units|
@@ -235,6 +236,7 @@ Data limitation:
 |↳ Min year|2020|Year|
 |Max number|552 000|Number of animals|
 |↳ Max year|1971|Year|
+
 
 #### 3.3-Sheeps
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_stocks_sheep.png)
@@ -248,6 +250,7 @@ Data limitation:
 |Max|70 301 461|Hectares|
 |↳ Max year|1982|Year|
 
+
 #### 3.4-Goats
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_stocks_goats.png)
 |Statistic |Value |Units|
@@ -260,6 +263,7 @@ Data limitation:
 |Max number|1 300 680|Number of animals|
 |↳ Max year|1988|Year|
 
+
 #### 3.5-Deers
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_stocks_deer.png)
 |Statistic |Value |Units|
@@ -271,6 +275,7 @@ Data limitation:
 |↳ Min year|1979|Year|
 |Max|1 756 888|Number of animals|
 |↳ Max year|2004|Year|
+
 
 #### 3.6-Poultry
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_stocks_poultry.png)
@@ -287,7 +292,6 @@ Data limitation:
 ---
 
 ## Tools
-
 **Environment:** R (Positron IDE)  
 
 **Libraries Used:**
@@ -298,6 +302,5 @@ Data limitation:
 ---
 
 ## Contact
-
 - 📧 [Email](mailto:67912775+FabienHaury@users.noreply.github.com)  
 - 💼 [LinkedIn](https://www.linkedin.com/in/fabienhaury/)
