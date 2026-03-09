@@ -46,11 +46,22 @@ A full explanation of each dataset column is available at the link above.
 ---
 
 ## Analysis
-  
+### 1-Evolution of surfaces used for farming
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_farm_area.png)
 
-### 1-Evolution of crops
+|Statistic |Value |Units|
+|----- |----- |-----|
+|Starting year|1935|Year|
+|Ending year|2024|Year|
+|↳ Missing year|1997->2001|Year|
+|Min surface|13 144 922|Hectares|
+|↳ Min year|1956|Year|
+|Max surface|21 376 819|Hectares|
+|↳ Max year|2012|Year|
 
-#### 1.1-Wheat
+### 2-Evolution of crops
+
+#### 2.1-Wheat
 
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_crops_wheat.png)
 
@@ -88,7 +99,7 @@ A full explanation of each dataset column is available at the link above.
 
 
 
-#### 1.2-Barley
+#### 2.2-Barley
 
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_crops_barley.png)
 
@@ -127,7 +138,7 @@ A full explanation of each dataset column is available at the link above.
 
 
 
-#### 1.3-Maize
+#### 2.3-Maize
 
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_crops_maize.png)
 
@@ -154,7 +165,7 @@ A full explanation of each dataset column is available at the link above.
 |↳ Max year|1977|Year|
 
 
-#### 1.4-Oats
+#### 2.4-Oats
 
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_crops_oats.png)
 
@@ -182,8 +193,8 @@ A full explanation of each dataset column is available at the link above.
 
 
 
-### 2-Evolution of living stocks
-#### 2.1-Cattle
+### 3-Evolution of living stocks
+#### 3.1-Cattle
 |Statistic |Value |Units|
 |----- |----- |-----|
 |Starting year|1971|Year|
@@ -194,7 +205,7 @@ A full explanation of each dataset column is available at the link above.
 |Max|9 311 000|Number of animals|
 |↳ Max year|1974|Year|
 
-#### 2.2-Pigs
+#### 3.2-Pigs
 |Statistic |Value |Units|
 |----- |----- |-----|
 |Starting year|1971|Year|
@@ -205,7 +216,7 @@ A full explanation of each dataset column is available at the link above.
 |Max number|552 000|Number of animals|
 |↳ Max year|1971|Year|
 
-#### 2.3-Sheeps
+#### 3.3-Sheeps
 |Statistic |Value |Units|
 |----- |----- |-----|
 |Starting year|1935|Year|
@@ -216,7 +227,7 @@ A full explanation of each dataset column is available at the link above.
 |Max|70 301 461|Hectares|
 |↳ Max year|1982|Year|
 
-#### 2.4-Goats
+#### 3.4-Goats
 |Statistic |Value |Units|
 |----- |----- |-----|
 |Starting year|1978|Year|
@@ -227,7 +238,7 @@ A full explanation of each dataset column is available at the link above.
 |Max number|1 300 680|Number of animals|
 |↳ Max year|1988|Year|
 
-#### 2.5-Deers
+#### 3.5-Deers
 |Statistic |Value |Units|
 |----- |----- |-----|
 |Starting year|1979|Year|
@@ -238,7 +249,7 @@ A full explanation of each dataset column is available at the link above.
 |Max|1 756 888|Number of animals|
 |↳ Max year|2004|Year|
 
-#### 2.6-Poultry
+#### 3.6-Poultry
 |Statistic |Value |Units|
 |----- |----- |-----|
 |Starting year|2002|Year|
