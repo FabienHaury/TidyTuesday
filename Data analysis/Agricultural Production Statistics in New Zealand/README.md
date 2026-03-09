@@ -59,6 +59,7 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1935|Year|
 |Ending year|2024|Year|
+|↳ Missing year|1997->2001|Year|
 |Min yield|72 350|Tonnes|
 |↳ Min year|1956|Year|
 |Max yield|488 614|Tonnes|
@@ -69,6 +70,7 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1935|Year|
 |Ending year|2002|Year|
+|↳ Missing year|1997-1998-2000-2001|Year|
 |Min sown|26 605|Hectares|
 |↳ Min year|1957|Year|
 |Max sown|129 975|Hectares|
@@ -95,6 +97,7 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1935|Year|
 |Ending year|2024|Year|
+|↳ Missing year|1997->2001|Year|
 |Min yield|10 993|Tonnes|
 |↳ Min year|1935|Year|
 |Max yield|644 369|Tonnes|
@@ -105,6 +108,7 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1954|Year|
 |Ending year|2002|Year|
+|↳ Missing year|1997-1998-2000-2001|Year|
 |Min sown|16 865|Hectares|
 |↳ Min year|1955|Year|
 |Max sown|152 332|Hectares|
@@ -115,6 +119,7 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|2003|Year|
 |Ending year|2024|Year|
+
 |Min harvested|41 967|Hectares|
 |↳ Min year|2017|Year|
 |Max harvested|77 669|Hectares|
@@ -131,6 +136,7 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1935|Year|
 |Ending year|2024|Year|
+|↳ Missing year|1956-1997->2001|Year|
 |Min yield|5128|Tonnes|
 |↳ Min year|1955|Year|
 |Max yield|244444|Tonnes|
@@ -141,6 +147,7 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1957|Year|
 |Ending year|2002|Year|
+|↳ Missing year|1997->2001|Year|
 |Min sown|2 220|Hectares|
 |↳ Min year|1957|Year|
 |Max sown|28 566|Hectares|
@@ -156,6 +163,7 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1935|Year|
 |Ending year|2024|Year|
+|↳ Missing year|1997->2001-2016|Year|
 |Min yield|17 153|Tonnes|
 |↳ Min year|1954|Year|
 |Max yield|79 677|Tonnes|
@@ -166,6 +174,7 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1954|Year|
 |Ending year|2002|Year|
+|↳ Missing year|1997->2001|Year|
 |Min sown|7 353|Hectares|
 |↳ Min year|2022|Year|
 |Max sown|22 863|Hectares|
@@ -179,6 +188,7 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1971|Year|
 |Ending year|1999|Year|
+|↳ Missing year|1991-1997-1998|Year|
 |Min|7 630 482|Number of animals|
 |↳ Min year|1983|Year|
 |Max|9 311 000|Number of animals|
@@ -189,6 +199,7 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1971|Year|
 |Ending year|2024|Year|
+|↳ Missing year|1997-1998-2000-2001|Year|
 |Min number|234 533|Number of animals|
 |↳ Min year|2020|Year|
 |Max number|552 000|Number of animals|
@@ -199,6 +210,7 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1935|Year|
 |Ending year|2024|Year|
+|↳ Missing year|1997-1998-2000-2001|Year|
 |Min|23 583 001|Number of animals|
 |↳ Min year|2024|Year|
 |Max|70 301 461|Hectares|
@@ -209,6 +221,7 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1978|Year|
 |Ending year|2022|Year|
+|↳ Missing year|1995-1997-1998-2000-2001-2005-2018-2020-2021|Year|
 |Min number|28 192|Hectares|
 |↳ Min year|1978|Year|
 |Max number|1 300 680|Number of animals|
@@ -219,6 +232,7 @@ A full explanation of each dataset column is available at the link above.
 |----- |----- |-----|
 |Starting year|1979|Year|
 |Ending year|2024|Year|
+|↳ Missing year|1997-1998-2000-2001|Year|
 |Min|42 080|Number of animals|
 |↳ Min year|1979|Year|
 |Max|1 756 888|Number of animals|
