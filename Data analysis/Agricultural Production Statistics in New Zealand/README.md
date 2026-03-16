@@ -16,7 +16,15 @@
 ---
 
 ## Introduction and Problem Statement
-New Zealand’s economy has historically relied on agriculture, but how have farming practices and outputs evolved over the past century? This analysis explores trends in crop yields, livestock numbers, and farmland use, using data from **Stats NZ** (via **TidyTuesday**). We aim to identify key shifts, possible drivers, and implications for policy and sustainability
+New Zealand’s economy has historically relied on agriculture, but how have farming practices and outputs evolved over the past century? This analysis explores trends in crop yields, livestock numbers, and farmland use, using data from **Stats NZ** (via **TidyTuesday**). We aim to identify key shifts, possible drivers, and implications for policy and sustainability.
+
+Key findings from this analysis:  
+1. Total farm area expanded by roughly 25% from the early 1970s, then plateaued for about 15 years before declining to below pre‑expansion levels – a downward trend that continues today.  
+2. Sheep numbers closely mirror this pattern, peaking in the early 1980s and declining steadily to their lowest recorded levels in 2024.  
+3. Crop production has shifted from large sown areas of wheat, barley, and oats in the mid‑20th century towards more intensive maize production and higher yields overall, especially in recent decades.  
+4. Livestock composition has diversified: while sheep and pigs have declined, deer and poultry expanded from the late 20th century, reflecting changing markets and farming systems. 
+
+The sections below unpack these patterns in more detail. We first examine how total farm area has changed over time, then explore major crop groups and livestock populations to understand how New Zealand’s agricultural landscape has been reshaped.
 
 ### What is *Stat NZ*?
 [Stats NZ](https://www.stats.govt.nz/) is New Zealand’s official data agency, employing over 1,000 staff across Auckland, Wellington, Christchurch, and regional offices. They collect and publish data through censuses and surveys, providing insights into New Zealand’s economy, environment, and society.
@@ -57,8 +65,8 @@ Data limitation:
 
 ## Methodologies
 1. **Data preparation and cleaning**  
-   - Created a derived `decade` variable to enable aggregation and comparison of long‑term trends (mainly used for visualisations).  
-   - Wrapped repeated operations (filtering, summarising, plotting) into custom R functions to reduce duplication and improve readability (see the referenced [function.R](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Notebook/function.R) script).
+   - Created a derived `decade` variable to enable aggregation and comparison of long‑term trends (mainly used in the Data visualisations section).  
+   - Wrapped repeated operations (filtering, summarising) into custom R functions to reduce duplication and improve readability (see the referenced [function.R](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Notebook/function.R) script). For each series (e.g. sheep numbers) the function reports min, max, and associated years, which are then used in the tables below.
 
 2. **Descriptive summarisation**  
    - Implemented a summary function to compute key statistics for each series: start and end years, missing years, minima and maxima (with their years), and units.  
@@ -206,7 +214,7 @@ Data limitation:
 |Ending year|2002|Year|
 |↳ Missing year|1997->2001|Year|
 |Min sown|7 353|Hectares|
-|↳ Min year|2022|Year|
+|↳ Min year|2002|Year|
 |Max sown|22 863|Hectares|
 |↳ Max year|1957|Year|
 
@@ -238,7 +246,7 @@ Data limitation:
 |↳ Max year|1971|Year|
 
 
-#### 3.3-Sheeps
+#### 3.3-Sheep
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_stocks_sheep.png)
 |Statistic |Value |Units|
 |----- |----- |-----|
@@ -247,7 +255,7 @@ Data limitation:
 |↳ Missing year|1997-1998-2000-2001|Year|
 |Min|23 583 001|Number of animals|
 |↳ Min year|2024|Year|
-|Max|70 301 461|Hectares|
+|Max|70 301 461|Number of animals|
 |↳ Max year|1982|Year|
 
 
@@ -258,13 +266,13 @@ Data limitation:
 |Starting year|1978|Year|
 |Ending year|2022|Year|
 |↳ Missing year|1995-1997-1998-2000-2001-2005-2018-2020-2021|Year|
-|Min number|28 192|Hectares|
+|Min number|28 192|Number of animals|
 |↳ Min year|1978|Year|
 |Max number|1 300 680|Number of animals|
 |↳ Max year|1988|Year|
 
 
-#### 3.5-Deers
+#### 3.5-Deer
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20analysis/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_stocks_deer.png)
 |Statistic |Value |Units|
 |----- |----- |-----|
