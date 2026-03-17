@@ -10,7 +10,7 @@
 - [Data](#data)
 - [Methodologies](#methodologies)
 - [Analysis](#analysis)
-- [Notable Events and Policies](#notable-events-and-policies)
+- [Policies, Market Shifts and Definitions](#policies-market-shifts-and-definitions)
 - [Tools](#tools)
 - [Contact](#contact)
 
@@ -362,26 +362,39 @@ We observe three distinct periods:
  3. 2018–2024: Numbers stabilised near 24–25 million with minor variation, maintaining high levels after the growth phase.
 
 ### 4-Synthesis  
+
+The preceding analysis highlights distinct but interconnected trends across land use, crop production, and livestock populations. Taken together, these patterns point to broader structural transformations in New Zealand’s agricultural system. The following synthesis brings these elements together to identify the main long-run shifts that emerge from the data.  
+
 #### 4.1 From extensive to intensive agriculture
- -Less land  
- -Higher yields  
- -More output per hectare  
+The data suggests a clear transition from extensive to intensive agriculture over the period studied. While total farmland area has declined since the late 1980s, crop yields—particularly for wheat and maize—have reached historically high levels. This divergence between land use and output is consistent with a shift toward greater productivity per hectare, likely supported by technological improvements, better crop varieties, and more efficient farm management. Overall, agricultural production appears increasingly concentrated on higher-quality land and more intensive systems.
 
 #### 4.2-From sheep dominance to diversification
- -Sheep collapse  
- -Rise of deer + poultry  
- -Stable cattle  
+The composition of livestock has evolved from a system historically dominated by sheep toward a more diversified structure. Sheep numbers, which peaked in the early 1980s, have declined steadily to their lowest recorded levels, while other livestock such as deer and poultry have expanded over the same period. This rebalancing suggests a shift toward activities better aligned with changing market conditions, including diversified meat production and more intensive farming systems. At the same time, the relative stability of cattle numbers indicates that diversification has occurred alongside the persistence of established sectors rather than a complete structural replacement.
 
 #### 4.3-From policy-driven to market-driven system
- -Pre-1984: expansion via subsidies  
- -Post-1984: efficiency + specialization  
+The evolution of New Zealand’s agricultural sector reflects a broader transition from policy-driven expansion to a more market-oriented system. Prior to the mid-1980s, government support measures coincided with increases in farmland area and livestock numbers. Following the removal of these supports, the data shows a contraction in land use and a restructuring of production patterns. This shift is consistent with farmers responding more directly to market signals by improving efficiency, reallocating land to more profitable uses, and focusing on competitive export sectors. As a result, the system appears more efficient but also more exposed to global market dynamics.
+
+### Conclusion
+Over the past century, New Zealand’s agricultural sector has undergone a profound structural transformation. The data shows a clear shift from land expansion to productivity gains, from sheep-dominated farming to a more diversified livestock system, and from policy-supported growth to market-driven efficiency.
+
+These transitions are particularly visible around the mid-1980s, where the removal of agricultural subsidies coincides with a sharp contraction in farmland use and a long-term decline in sheep numbers. At the same time, the rise in crop yields and the emergence of new livestock sectors such as deer and poultry suggest a reallocation toward more productive and market-aligned activities.
+
+While this analysis does not establish causality, it highlights how major policy and market shifts are reflected in long-run agricultural trends. These findings raise important questions about the future of land use, sustainability, and the balance between productivity and environmental constraints in New Zealand’s agricultural system.
 
 ---
 
-## Notable Events and Policies
+## Policies, Market Shifts and Definitions
 **Ottawa Deals (1932)**: Empire trade pacts signed at the Ottawa Conference to boost intra-Commonwealth commerce amid the Great Depression; New Zealand gained preferential UK market access for meat, dairy, and wool, fueling pastoral expansion.  
 
+**UK Entry into the European Economic Community (1973)**: When the European Economic Community expanded to include the United Kingdom, New Zealand lost its privileged access to its main export market. This marked a major structural break, forcing diversification away from reliance on sheep products (especially wool and lamb) and encouraging the search for new export markets.
+
 **Rogernomics (1984–85)**: Radical free-market reforms under Finance Minister Roger Douglas; overnight subsidy cuts (40% of farm income), deregulation, and subsidy abolition forced NZ agriculture to restructure, specialize in exports, and become globally competitive.
+
+**Collapse of Global Wool Prices (late 1980s–1990s)**: A sharp and sustained decline in international wool prices reduced the profitability of sheep farming. This is consistent with the long-term fall in sheep numbers observed in the data, as farmers shifted toward more profitable activities such as dairy, forestry, or alternative livestock.
+
+**Expansion of Forestry (1990s–present)**: Increasing incentives for plantation forestry, including carbon-related policies, encouraged the conversion of marginal farmland into forest. This helps explain part of the long-term decline in total farmland area observed after the late 1980s.
+
+**Introduction of the Emissions Trading Scheme (2008)**: The New Zealand Emissions Trading Scheme introduced carbon pricing mechanisms that made forestry more financially attractive relative to some forms of agriculture. This policy is consistent with ongoing land-use changes and the shift away from extensive pastoral farming.
 
 **Sown Area**: Total land planted/seeded with a crop, regardless of outcome.
 
