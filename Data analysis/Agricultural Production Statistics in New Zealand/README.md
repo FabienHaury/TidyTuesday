@@ -27,7 +27,7 @@ Key findings from this analysis:
 
 The sections below unpack these patterns in more detail. We first examine how total farm area has changed over time, then explore major crop groups and livestock populations to understand how New Zealand’s agricultural landscape has been reshaped.
 
-### What is *Stat NZ*?
+### What is *Stats NZ*?
 [Stats NZ](https://www.stats.govt.nz/) is New Zealand’s official data agency, employing over 1,000 staff across Auckland, Wellington, Christchurch, and regional offices. They collect and publish data through censuses and surveys, providing insights into New Zealand’s economy, environment, and society.
 
 ### Why study the *Stat NZ* dataset?  
@@ -37,10 +37,20 @@ The sections below unpack these patterns in more detail. We first examine how to
 
 ### Focus of this analysis.
 This analysis focuses on two main questions:   
-1- How has agricultural production in New Zealand changed over time?   
-2- How has livestock production in New Zealand evolved?
+1. How have New Zealand’s agricultural land use, crop areas and yields, and livestock populations changed over the past century?   
+2. Which structural breaks in policy or markets coincide with the major turning points in land use and livestock numbers?    
 
-This analysis explores what patterns emerge—and what we can and cannot learn—from this unique ecological resource.  
+This analysis does not model causality or profitability; it focuses on long‑run descriptive trends derived from Stats NZ agricultural production statistics.
+ 
+### What we can infer: 
+   - Long‑run trends and turning points in area and numbers.
+   - Sequencing of changes relative to major policy shifts.
+
+### What we cannot infer:
+   - Farm‑level profitability or productivity per animal.
+   - Environmental pressures (emissions, water quality) directly.
+   - Detailed causal attribution (e.g. exactly how much of the sheep decline is due to subsidies vs. global prices vs. forestry conversion).
+
 
 ---
 
