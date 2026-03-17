@@ -10,6 +10,7 @@
 - [Data](#data)
 - [Methodologies](#methodologies)
 - [Analysis](#analysis)
+- [Notable Events and Policies](#notable-events-and-policies)
 - [Tools](#tools)
 - [Contact](#contact)
 
@@ -56,7 +57,7 @@ Dataset: [TidyTuesday 2026-02-17](https://github.com/rfordatascience/tidytuesday
 A full explanation of each dataset column is available at the link above.  
 
 Data limitation:   
-1- Several years are missing from the dataset.   
+1- Several years are missing from the dataset. /!\ Meaning the data are not consciensly avoided or else but are actually missing data. /!\   
 2- Around the early 2000s, data collection shifted from recording *sown* to *harvested* crop areas, which may affect trend comparisons.   
 3- Not all crops have sown or harvested data.
 
@@ -93,6 +94,10 @@ Data limitation:
 |Max surface|21 376 819|Hectares|
 |↳ Max year|2012|Year|
 
+We can notice three distinct period:  
+   1. 1935 to 1970: The farmland area remained stable at around 17.5 million hectares. This period followed the Ottawa agreements with the UK and Labour’s dairy support policies, which encouraged the conversion of forests and marginal lands into farmland.
+   2. 1971 to 1986: There was a rapid expansion in farmland, reaching a peak of about 21 million hectares. This growth was driven by a shift from crops to livestock farming, subsidies for fertilizers and grasslands, and the expansion of the dairy industry—all of which required more land.
+   3. 1987 to 2024: A sharp decline occurred in 1987, dropping from 21 million to 17 million hectares. Since then, the total farmland area has continued to decrease. This trend is linked to the Rogernomics reforms (1984–1985), which removed most agricultural subsidies (representing about 40% of farm income), leading to significant changes in land use. More recently, factors such as the conversion of farmland to forestry, urban development, and stricter environmental regulations have further reduced the farmland area.
 
 ### 2-Evolution of crops
 #### 2.1-Wheat
@@ -296,6 +301,13 @@ Data limitation:
 |Max|25 675 426|Number of animals|
 |↳ Max year|2021|Year|
 
+
+---
+
+## Notable Events and Policies
+**Ottawa Deals (1932)**: Empire trade pacts signed at the Ottawa Conference to boost intra-Commonwealth commerce amid the Great Depression; New Zealand gained preferential UK market access for meat, dairy, and wool, fueling pastoral expansion.  
+
+**Rogernomics (1984–85)**: Radical free-market reforms under Finance Minister Roger Douglas; overnight subsidy cuts (40% of farm income), deregulation, and subsidy abolition forced NZ agriculture to restructure, specialize in exports, and become globally competitive.
 
 ---
 
