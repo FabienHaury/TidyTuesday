@@ -57,7 +57,7 @@ Dataset: [TidyTuesday 2026-02-17](https://github.com/rfordatascience/tidytuesday
 A full explanation of each dataset column is available at the link above.  
 
 Data limitation:   
-1- Several years are missing from the dataset. /!\ Meaning the data are not consciensly avoided or else but are actually missing data. /!\   
+1- Several years are missing from the dataset (not consciously avoided).   
 2- Around the early 2000s, data collection shifted from recording *sown* to *harvested* crop areas, which may affect trend comparisons.   
 3- Not all crops have sown or harvested data.
 
@@ -89,9 +89,9 @@ Data limitation:
 |Starting year|1935|Year|
 |Ending year|2024|Year|
 |↳ Missing year|1997->2001|Year|
-|Min surface|13 144 922|Hectares|
+|Min surface|13,144,922|Hectares|
 |↳ Min year|1956|Year|
-|Max surface|21 376 819|Hectares|
+|Max surface|21,376,819|Hectares|
 |↳ Max year|2012|Year|
 
 We can notice three distinct period:  
@@ -109,9 +109,9 @@ We can notice three distinct period:
 |Starting year|1935|Year|
 |Ending year|2024|Year|
 |↳ Missing year|1997->2001|Year|
-|Min yield|72 350|Tonnes|
+|Min yield|72,350|Tonnes|
 |↳ Min year|1956|Year|
-|Max yield|488 614|Tonnes|
+|Max yield|488,614|Tonnes|
 |↳ Max year|2012|Year|
 
 #### Sown
@@ -120,9 +120,9 @@ We can notice three distinct period:
 |Starting year|1935|Year|
 |Ending year|2002|Year|
 |↳ Missing year|1997-1998-2000-2001|Year|
-|Min sown|26 605|Hectares|
+|Min sown|26,605|Hectares|
 |↳ Min year|1957|Year|
-|Max sown|129 975|Hectares|
+|Max sown|129,975|Hectares|
 |↳ Max year|1969|Year|
 
 #### Harvest
@@ -130,9 +130,9 @@ We can notice three distinct period:
 |----- |----- |-----|
 |Starting year|2003|Year|
 |Ending year|2024|Year|
-|Min harvested|37 962|Hectares|
+|Min harvested|37,962|Hectares|
 |↳ Min year|2006|Year|
-|Max harvested|54 762|Hectares|
+|Max harvested|54,762|Hectares|
 |↳ Max year|2010|Year|
 
 
@@ -145,9 +145,9 @@ We can notice three distinct period:
 |Starting year|1935|Year|
 |Ending year|2024|Year|
 |↳ Missing year|1997->2001|Year|
-|Min yield|10 993|Tonnes|
+|Min yield|10,993|Tonnes|
 |↳ Min year|1935|Year|
-|Max yield|644 369|Tonnes|
+|Max yield|644,369|Tonnes|
 |↳ Max year|1985|Year|
 
 #### Sown
@@ -156,9 +156,9 @@ We can notice three distinct period:
 |Starting year|1954|Year|
 |Ending year|2002|Year|
 |↳ Missing year|1997-1998-2000-2001|Year|
-|Min sown|16 865|Hectares|
+|Min sown|16,865|Hectares|
 |↳ Min year|1955|Year|
-|Max sown|152 332|Hectares|
+|Max sown|152,332|Hectares|
 |↳ Max year|1985|Year|
 
 #### Harvest
@@ -166,9 +166,9 @@ We can notice three distinct period:
 |----- |----- |-----|
 |Starting year|2003|Year|
 |Ending year|2024|Year|
-|Min harvested|41 967|Hectares|
+|Min harvested|41,967|Hectares|
 |↳ Min year|2017|Year|
-|Max harvested|77 669|Hectares|
+|Max harvested|77,669|Hectares|
 |↳ Max year|2009|Year|
 
 
@@ -181,9 +181,9 @@ We can notice three distinct period:
 |Starting year|1935|Year|
 |Ending year|2024|Year|
 |↳ Missing year|1956-1997->2001|Year|
-|Min yield|5128|Tonnes|
+|Min yield|5,128|Tonnes|
 |↳ Min year|1955|Year|
-|Max yield|244444|Tonnes|
+|Max yield|244,444|Tonnes|
 |↳ Max year|2024|Year|
 
 #### Sown
@@ -192,9 +192,9 @@ We can notice three distinct period:
 |Starting year|1957|Year|
 |Ending year|2002|Year|
 |↳ Missing year|1997->2001|Year|
-|Min sown|2 220|Hectares|
+|Min sown|2,220|Hectares|
 |↳ Min year|1957|Year|
-|Max sown|28 566|Hectares|
+|Max sown|28,566|Hectares|
 |↳ Max year|1977|Year|
 
 
@@ -207,9 +207,9 @@ We can notice three distinct period:
 |Starting year|1935|Year|
 |Ending year|2024|Year|
 |↳ Missing year|1997->2001-2016|Year|
-|Min yield|17 153|Tonnes|
+|Min yield|17,153|Tonnes|
 |↳ Min year|1954|Year|
-|Max yield|79 677|Tonnes|
+|Max yield|79,677|Tonnes|
 |↳ Max year|1983|Year|
 
 #### Sown
@@ -218,9 +218,9 @@ We can notice three distinct period:
 |Starting year|1954|Year|
 |Ending year|2002|Year|
 |↳ Missing year|1997->2001|Year|
-|Min sown|7 353|Hectares|
+|Min sown|7,353|Hectares|
 |↳ Min year|2002|Year|
-|Max sown|22 863|Hectares|
+|Max sown|22,863|Hectares|
 |↳ Max year|1957|Year|
 
 
@@ -232,9 +232,9 @@ We can notice three distinct period:
 |Starting year|1971|Year|
 |Ending year|1999|Year|
 |↳ Missing year|1991-1997-1998|Year|
-|Min|7 630 482|Number of animals|
+|Min|7,630,482|Number of animals|
 |↳ Min year|1983|Year|
-|Max|9 311 000|Number of animals|
+|Max|9,311,000|Number of animals|
 |↳ Max year|1974|Year|
 
 
@@ -245,9 +245,9 @@ We can notice three distinct period:
 |Starting year|1971|Year|
 |Ending year|2024|Year|
 |↳ Missing year|1997-1998-2000-2001|Year|
-|Min number|234 533|Number of animals|
+|Min number|234,533|Number of animals|
 |↳ Min year|2020|Year|
-|Max number|552 000|Number of animals|
+|Max number|552,000|Number of animals|
 |↳ Max year|1971|Year|
 
 
@@ -258,9 +258,9 @@ We can notice three distinct period:
 |Starting year|1935|Year|
 |Ending year|2024|Year|
 |↳ Missing year|1997-1998-2000-2001|Year|
-|Min|23 583 001|Number of animals|
+|Min|23,583,001|Number of animals|
 |↳ Min year|2024|Year|
-|Max|70 301 461|Number of animals|
+|Max|70,301,461|Number of animals|
 |↳ Max year|1982|Year|
 
 
@@ -271,9 +271,9 @@ We can notice three distinct period:
 |Starting year|1978|Year|
 |Ending year|2022|Year|
 |↳ Missing year|1995-1997-1998-2000-2001-2005-2018-2020-2021|Year|
-|Min number|28 192|Number of animals|
+|Min number|28,192|Number of animals|
 |↳ Min year|1978|Year|
-|Max number|1 300 680|Number of animals|
+|Max number|1,300,680|Number of animals|
 |↳ Max year|1988|Year|
 
 
@@ -284,9 +284,9 @@ We can notice three distinct period:
 |Starting year|1979|Year|
 |Ending year|2024|Year|
 |↳ Missing year|1997-1998-2000-2001|Year|
-|Min|42 080|Number of animals|
+|Min|42,080|Number of animals|
 |↳ Min year|1979|Year|
-|Max|1 756 888|Number of animals|
+|Max|1,756,888|Number of animals|
 |↳ Max year|2004|Year|
 
 
@@ -296,9 +296,9 @@ We can notice three distinct period:
 |----- |----- |-----|
 |Starting year|2002|Year|
 |Ending year|2024|Year|
-|Min|17 504 212|Number of animals|
+|Min|17,504,212|Number of animals|
 |↳ Min year|2006|Year|
-|Max|25 675 426|Number of animals|
+|Max|25,675,426|Number of animals|
 |↳ Max year|2021|Year|
 
 
@@ -308,6 +308,10 @@ We can notice three distinct period:
 **Ottawa Deals (1932)**: Empire trade pacts signed at the Ottawa Conference to boost intra-Commonwealth commerce amid the Great Depression; New Zealand gained preferential UK market access for meat, dairy, and wool, fueling pastoral expansion.  
 
 **Rogernomics (1984–85)**: Radical free-market reforms under Finance Minister Roger Douglas; overnight subsidy cuts (40% of farm income), deregulation, and subsidy abolition forced NZ agriculture to restructure, specialize in exports, and become globally competitive.
+
+**Sown Area**: Total land planted/seeded with a crop, regardless of outcome.
+
+**Harvested Area**: Only the portion actually reaped (excludes failures/disasters). **FAO/FAOSTAT international standard** for yield calculations.
 
 ---
 
