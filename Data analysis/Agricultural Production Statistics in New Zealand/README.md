@@ -22,7 +22,7 @@ New Zealand’s economy has historically relied on agriculture, but how have far
 Key findings from this analysis:  
 1. Total farm area expanded by roughly 25% from the early 1970s, then plateaued for about 15 years before declining to below pre‑expansion levels – a downward trend that continues today.  
 2. Sheep numbers closely mirror this pattern, peaking in the early 1980s and declining steadily to their lowest recorded levels in 2024.  
-3. Crop production has shifted from large sown areas of wheat, barley, and oats in the mid‑20th century towards more intensive maize production and higher yields overall, especially in recent decades.  
+3. Crop production has shifted from land-intensive cereals (wheat, oats, barley) toward higher-yield, more intensive systems (notably maize), indicating a structural move toward productivity over scale.  
 4. Livestock composition has diversified: while sheep and pigs have declined, deer and poultry expanded from the late 20th century, reflecting changing markets and farming systems. 
 
 The sections below unpack these patterns in more detail. We first examine how total farm area has changed over time, then explore major crop groups and livestock populations to understand how New Zealand’s agricultural landscape has been reshaped.
@@ -104,9 +104,9 @@ Data limitation:
 |Max surface|21,376,819|Hectares|
 |↳ Max year|2012|Year|
 
-We can notice three distinct period:  
+We observe three distinct period:  
    1. 1935 to 1970: The farmland area remained stable at around 17.5 million hectares. This period followed the Ottawa agreements with the UK and Labour’s dairy support policies, which encouraged the conversion of forests and marginal lands into farmland.
-   2. 1971 to 1986: There was a rapid expansion in farmland, reaching a peak of about 21 million hectares. This growth was driven by a shift from crops to livestock farming, subsidies for fertilizers and grasslands, and the expansion of the dairy industry—all of which required more land.
+   2. 1971 to 1986: There was a rapid expansion in farmland, reaching a peak of about 21 million hectares. This growth coincides with a shift from crops to livestock farming, subsidies for fertilizers and grasslands, and the expansion of the dairy industry—all of which required more land.
    3. 1987 to 2024: A sharp decline occurred in 1987, dropping from 21 million to 17 million hectares. Since then, the total farmland area has continued to decrease. This trend is linked to the Rogernomics reforms (1984–1985), which removed most agricultural subsidies (representing about 40% of farm income), leading to significant changes in land use. More recently, factors such as the conversion of farmland to forestry, urban development, and stricter environmental regulations have further reduced the farmland area.
 
 ### 2-Evolution of crops
@@ -145,7 +145,7 @@ We can notice three distinct period:
 |Max harvested|54,762|Hectares|
 |↳ Max year|2010|Year|
 
-We can notice three distinct periods:  
+We observe three distinct periods:  
  1. 1935 to 1960: Wheat yields fluctuated substantially from year to year, while the sown area gradually declined from mid‑century, suggesting less land devoted to wheat even before any clear, sustained lift in output.
  2. 1961 to 1990: Yields increased to much higher levels than in the early period and stayed elevated, while the cultivated area was relatively stable or slowly shrinking, hinting at higher output per hectare over time.
  3. 1991 to 2024: Yields frequently reached their highest recorded values even as harvested area remained well below mid‑20th‑century peaks, which could indicate (hypothetically) more intensive production systems or a focus on the most suitable wheat land.
@@ -185,7 +185,7 @@ We can notice three distinct periods:
 |Max harvested|77,669|Hectares|
 |↳ Max year|2009|Year|
 
-We can notice three distinct periods:
+We observe three distinct periods:
  1. 1935–1965: Barley yields rose from very low levels to over 100,000 tonnes, with noticeable year‑to‑year volatility and no area data before the mid‑1950s to show how much was driven by expansion.
  2. 1966–1990: Both yields and sown area climbed sharply, peaking in the mid‑1980s at over 640,000 tonnes and more than 150,000 hectares, before dropping back by 1990.
  3. 1991–2024: Yields stayed relatively high but below the 1980s peak, while sown and then harvested area fell to much lower levels than in the expansion phase, suggesting a smaller but still productive barley sector.
@@ -216,7 +216,7 @@ We can notice three distinct periods:
 |Max sown|28,566|Hectares|
 |↳ Max year|1977|Year|
 
-We can notice three distinct periods:
+We observe three distinct periods:
  1. 1935–1965: Maize yields remained low and variable, generally below 25,000 tonnes, with sown area data only available from 1957 showing very small plantings (under 4,000 hectares).
  2. 1966–1990: Yields rose sharply from the mid‑1960s, peaking above 200,000 tonnes in the late 1970s, while sown area expanded to a maximum of nearly 29,000 hectares before levelling off.
  3. 1991–2024: Yields stayed high and even reached a record 244,444 tonnes in 2024, but sown area remained much smaller and stable (around 15,000–20,000 hectares), indicating sustained high output from less land.
@@ -247,7 +247,7 @@ We can notice three distinct periods:
 |Max sown|22,863|Hectares|
 |↳ Max year|1957|Year|
 
-We can notice three distinct periods:
+We observe three distinct periods:
  1. 1935–1965: Oats yields fluctuated widely between 17,000–76,000 tonnes with no clear trend upward or downward, while sown area data from 1954 shows variable plantings peaking near 23,000 hectares in 1957.
  2. 1966–1990: Yields trended higher with several peaks above 70,000 tonnes (notably 1983), while sown area remained variable but generally between 10,000–22,000 hectares without major expansion.
  3. 1991–2024: Yields dropped to consistently lower levels (mostly 20,000–40,000 tonnes), and sown area shrank further to around 7,000–15,000 hectares, indicating a much smaller oats sector overall.
@@ -267,7 +267,7 @@ We can notice three distinct periods:
 |Max|9,311,000|Number of animals|
 |↳ Max year|1974|Year|
 
-We can notice three distinct periods:
+We observe three distinct periods:
  1. 1971–1979: Cattle numbers grew rapidly from 8 million to a peak of 9.3 million in 1974, then declined slightly to 8 million by decade's end.
  2. 1980–1989: Numbers stabilised around 8 million with a brief recovery to 8.3 million mid-decade, but no return to 1970s highs.
  3. 1990–1999: Numbers fluctuated between 8–9 million despite data gaps, ending near 9 million with no clear upward or downward trend.
@@ -285,7 +285,7 @@ We can notice three distinct periods:
 |Max number|552,000|Number of animals|
 |↳ Max year|1971|Year|
 
-We can notice three distinct periods:
+We observe three distinct periods:
  1. 1971–1980: Pig numbers declined steadily from a peak of 552,000 to around 430,000, showing an early contraction after the decade's high.
  2. 1981–2000: Numbers stabilised around 400,000 with minor fluctuations despite data gaps, maintaining a relatively consistent but smaller herd size.
  3. 2001–2024: Numbers continued downward to a low of 234,533 in 2020 before slight recovery, ending at 243,588—well below 1970s levels with a much reduced pig sector.
@@ -303,7 +303,7 @@ We can notice three distinct periods:
 |Max|70,301,461|Number of animals|
 |↳ Max year|1982|Year|
 
-We can notice three distinct periods:
+We observe three distinct periods:
  1. 1935–1979: Sheep numbers grew steadily from ~29 million to nearly 70 million, with consistent expansion through the postwar decades peaking just before 1980.
  2. 1980–1999: Numbers stabilised near 70 million before declining sharply to around 45 million by decade's end, despite data gaps.
  3. 2000–2024: A continued strong decline brought numbers to a record low of 23.6 million, halving from early 2000s levels.
@@ -321,7 +321,7 @@ We can notice three distinct periods:
 |Max number|1,300,680|Number of animals|
 |↳ Max year|1988|Year|
 
-We can notice three distinct periods:
+We observe three distinct periods:
  1. 1978–1988: Goat numbers exploded from 28,000 to a peak of 1.3 million, showing dramatic growth over a single decade.
  2. 1989–1999: Numbers declined sharply from over 1 million to around 186,000 despite data gaps, a rapid contraction phase.
  3. 2000–2022: Numbers stabilised at much lower levels (80,000–150,000 range) with ongoing fluctuations but no return to 1980s peaks.
@@ -339,7 +339,7 @@ We can notice three distinct periods:
 |Max|1,756,888|Number of animals|
 |↳ Max year|2004|Year|
 
-We can notice three distinct periods:
+We observe three distinct periods:
  1. 1979–1999: Deer numbers grew explosively from 42,000 to a peak of 1.68 million, establishing deer farming as a major new agricultural sector.
  2. 2000–2013: Numbers stabilised near 1.6–1.7 million before beginning a gradual decline despite data gaps in the late 1990s.
  3. 2014–2024: Numbers fell steadily to 708,627—a contraction of over 50% from peak levels, though still far above early industry figures.
@@ -356,10 +356,25 @@ We can notice three distinct periods:
 |Max|25,675,426|Number of animals|
 |↳ Max year|2021|Year|
 
-We can notice three distinct periods:
+We observe three distinct periods:
  1. 2002–2009: Poultry numbers fluctuated around 18–22 million with no clear trend, starting from a high base in the early 2000s.
  2. 2010–2017: Numbers rose steadily from 19 million to nearly 24 million, showing consistent growth through the decade.
  3. 2018–2024: Numbers stabilised near 24–25 million with minor variation, maintaining high levels after the growth phase.
+
+### 4-Synthesis  
+#### 4.1 From extensive to intensive agriculture
+ -Less land  
+ -Higher yields  
+ -More output per hectare  
+
+#### 4.2-From sheep dominance to diversification
+ -Sheep collapse  
+ -Rise of deer + poultry  
+ -Stable cattle  
+
+#### 4.3-From policy-driven to market-driven system
+ -Pre-1984: expansion via subsidies  
+ -Post-1984: efficiency + specialization  
 
 ---
 
