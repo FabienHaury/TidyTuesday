@@ -8,7 +8,7 @@
 - [Introduction and Problem Statement](#introduction-and-problem-statement)
 - [Methodologies](#methodologies)
 - [Data](#data)
-- [Visualization](#visualization-breakdown)
+- [Visualization breakdown](#visualization-breakdown)
 - [Tools](#tools)
 - [Contact](#contact)
 
@@ -30,7 +30,7 @@ A complementary analysis using the same dataset focuses on cereal crops (wheat, 
 ## Methodologies
 
 The main goal of this project is not to answer a specific research question but to **develop effective and insightful graphics**.  
-The *Methodologies* section will be expanded in the [Visualization](#visualization) part, describing the reasoning and design choices behind each visualization.
+The *Methodologies* section will be expanded in the [Visualization breakdown](#visualization-breakdown) part, describing the reasoning and design choices behind each visualization.
 
 
 ---
@@ -51,19 +51,18 @@ A full explanation of each dataset column is available at the link above.
 ### Evolution of sheep population
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20visualization/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_total_sheep.png)   
 
-
 #### Problem
 The goal of this visualization was to display multiple layers of information while keeping the graphic readable: 
 
 - yearly sheep population.
-- the average population for each decade
-- the deviation between individual years and decade averages
+- the average population for each decade.
+- the deviation between individual years and decade averages.
 
 #### Data Processing
-- Filter the dataset to retain sheep population data
-- Reconstruct missing years to maintain a continuous time series
-- Compute average population values for each decade
-- Create layered visual elements using `ggplot2`
+- Filter the dataset to retain sheep population data.
+- Reconstruct missing years to maintain a continuous time series.
+- Compute average population values for each decade.
+- Create layered visual elements using `ggplot2`.
 
 #### Design Choices
 To achieve this, the visualization combines several elements:
@@ -82,6 +81,32 @@ Future iterations of the graphic may include:
 - Explore small adjustments to decade labeling — such as scaling, contrast, or placement — to further improve visual balance without changing the current layout logic.
 
 
+### Evolution of crops yield
+
+![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20visualization/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_crops_all.png) 
+
+#### Problem
+The goal of this visualization was to display multiple layers of information while keeping the graphic readable. 
+It focuses on showing the yearly evolution of cereal yields across different crops, enabling direct comparison of long-term trends.
+
+#### Data Processing
+- Filter the dataset to retain yield data for each crop.
+- Reconstruct missing years to maintain a continuous time series.
+
+#### Design Choices
+To balance information density and readability, several visual strategies are used:
+
+- **Line** represent the crops yield for each year.
+- **Colors** help the reader quickly identify different crops.
+- **Direct labeling** replaces the legend to reduce visual friction and improve flow.
+
+The background uses a light beige tone to evoke the appearance of aged paper while maintaining good visual readability.
+   
+#### Possible Improvements
+Future iterations of the graphic may include:
+- Assess whether the current color palette effectively communicates the magnitude and temporal differences in the data, even if the design itself remains cohesive and visually appealing.
+- Add direct labels or annotations highlighting minimum and maximum values to make key fluctuations easier to interpret.
+- Explore small adjustments to decade labeling — such as scaling, contrast, or placement — to further improve visual balance without changing the current layout logic.
 
 
 
@@ -98,7 +123,7 @@ Future iterations of the graphic may include:
 **Libraries Used:**
 - `dplyr`, `tidyverse`, `ggplot2` for data manipulation and visualization  
 - `tidytuesdayR` for accessing datasets  
-- `ggtext` and `patchwork` for graphic customization
+- `ggtext`, `ggrepel` `patchwork` for graphic customization
 
 ---
 
