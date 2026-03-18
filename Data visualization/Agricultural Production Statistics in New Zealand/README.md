@@ -8,7 +8,7 @@
 - [Introduction and Problem Statement](#introduction-and-problem-statement)
 - [Methodologies](#methodologies)
 - [Data](#data)
-- [Visualization](#visualization)
+- [Visualization](#visualization-breakdown)
 - [Tools](#tools)
 - [Contact](#contact)
 
@@ -16,8 +16,7 @@
 
 ## Introduction and Problem Statement
 
-The world of data is an ever-growing field. Covering the full spectrum from gathering and cleaning data to analysis, one aspect is often overlooked: **data visualization**.  
-Even the most thorough analysis can lose its impact if the results are not communicated clearly.  
+The world of data is an ever-growing field. While data work spans the entire pipeline—from data collection and cleaning to analysis—one aspect is often overlooked: **data visualization**. Even the most thorough analysis can lose its impact if the results are not communicated effectively. 
 
 This project aims to strengthen my data visualization skills by creating visuals that are not only aesthetically appealing but also enhance understanding and deliver clearer insights.
 
@@ -46,35 +45,46 @@ A full explanation of each dataset column is available at the link above.
 
 ---
 
-## Visualization
+## Visualization Breakdown
   
 
 ### Evolution of sheep population
 ![](https://github.com/FabienHaury/TidyTuesday/blob/main/Data%20visualization/Agricultural%20Production%20Statistics%20in%20New%20Zealand/Plots/Graphics/graph_total_sheep.png)   
 
-- Problematic: how to show multiple informations at the same time but without cluttering the graphic.
-  - Showing the sheep population for every year to see the evolution of the population.
-  - Showing the average population for each decade.
-  - Combining those two points in a readable and pleasing way.
 
-- How the graphic is build:
-  - First, data are filtered to only keep the revelant data about sheep numbers.
-  - If some year are missing then the missing year are added to keep the yearly continuity.
-  - Horizontal segment representing each decades are drawn.
-  - Dot for each year representing the total number of sheep.
-  - Vertical dashed segment are drawn to help visualise the gap between the average line and the dot representing the total for each year.
-  - Adding annotation to explain the missing data.
-  - Adding label for each decade to help the reader visualising the decade.
-  - Working on the aesthetics to make it pleasant/easy on the reader eyes.
-    - Double vertical axis has been added to help readibilty when looking as the most recent year.
-    - Axis are broken to give the information that their are not relatate.
-    - Each decade has is own color to help visualise quickly each decade.
-    - A very light, warm beige background was used to evoke the feel of aged paper and to keep the visualization easy on the eyes.
+#### Problem
+The goal of this visualization was to display multiple layers of information while keeping the graphic readable: 
+
+- yearly sheep population.
+- the average population for each decade
+- the deviation between individual years and decade averages
+
+#### Data Processing
+- Filter the dataset to retain sheep population data
+- Reconstruct missing years to maintain a continuous time series
+- Compute average population values for each decade
+- Create layered visual elements using `ggplot2`
+
+#### Design Choices
+To achieve this, the visualization combines several elements:
+
+- **Dots** represent the sheep population for each year.
+- **Horizontal segments** indicate the average population for each decade.
+- **Vertical dashed lines** highlight the gap between yearly values and the decade average.
+- **Decade labels and colors** help the reader quickly identify different time periods.
+
+The background uses a light beige tone to evoke the appearance of aged paper while maintaining good visual readability.
    
-- Area for improvement:
-  - Assess whether the current color palette effectively communicates the magnitude and temporal differences in the data, even if the design itself remains cohesive and visually appealing.
-  - Add direct labels or annotations highlighting minimum and maximum values to make key fluctuations easier to interpret.
-  - Explore small adjustments to decade labeling — such as scaling, contrast, or placement tweaks — to further improve visual balance without changing the current layout logic.
+#### Possible Improvements
+Future iterations of the graphic may include:
+- Assess whether the current color palette effectively communicates the magnitude and temporal differences in the data, even if the design itself remains cohesive and visually appealing.
+- Add direct labels or annotations highlighting minimum and maximum values to make key fluctuations easier to interpret.
+- Explore small adjustments to decade labeling — such as scaling, contrast, or placement — to further improve visual balance without changing the current layout logic.
+
+
+
+
+
 
 
 
