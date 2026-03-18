@@ -246,3 +246,128 @@ ggplot(df_tot_sheep, aes(year_ended_june, value, color = decade)) +
 #   300,
 #   forcer = TRUE
 # )
+
+### All crops data ----
+wheat_yield <- df |>
+  filter(measure == "Wheat (yield)", ignore.case = TRUE) |>
+  mutate(measure = "Wheat") |>
+  complete(
+    year_ended_june = full_seq(year_ended_june, period = 1),
+    fill = list(measure = "Wheat")
+  ) |>
+  select(-c(value_label, decade))
+
+barley_yield <- df |>
+  filter(measure == "Barley (yield)", ignore.case = TRUE) |>
+  mutate(measure = "Barley") |>
+  complete(
+    year_ended_june = full_seq(year_ended_june, period = 1),
+    fill = list(measure = "Barley")
+  ) |>
+  select(-c(value_label, decade))
+
+maize_yield <- df |>
+  filter(measure == "Maize (yield)", ignore.case = TRUE) |>
+  mutate(measure = "Maize") |>
+  complete(
+    year_ended_june = full_seq(year_ended_june, period = 1),
+    fill = list(measure = "Maize")
+  ) |>
+  select(-c(value_label, decade))
+
+
+oats_yield <- df |>
+  filter(measure == "Oats (yield)", ignore.case = TRUE) |>
+  mutate(measure = "Oats") |>
+  complete(
+    year_ended_june = full_seq(year_ended_june, period = 1),
+    fill = list(measure = "Oats")
+  ) |>
+  select(-c(value_label, decade))
+
+
+df_all_crops <- rbind(wheat_yield, barley_yield, maize_yield, oats_yield)
+
+
+df_all_crops_repel <- df_all_crops |>
+  group_by(measure) |>
+  slice_tail(n = 1) |>
+  ungroup()
+
+
+plt <- df_all_crops |>
+  ggplot(aes(year_ended_june, value, group = measure, color = measure)) +
+  geom_line(linewidth = 1.2) +
+  geom_point(size = 1, alpha = 0.5) +
+  ggrepel::geom_text_repel(
+    data = df_all_crops_repel,
+    aes(label = measure, x = 2024, y = value),
+    hjust = 0,
+    nudge_x = 1,
+    family = "Verdana",
+    fontface = "bold",
+    size = 5,
+    direction = "y",
+    segment.size = .7,
+    segment.alpha = .5,
+    segment.linetype = "dotted",
+    box.padding = .4,
+    segment.curvature = -0.1,
+    segment.ncp = 3,
+    segment.angle = 20
+  ) +
+  coord_cartesian(clip = "off") +
+  scale_x_continuous(
+    limits = c(1935, 2025),
+    breaks = seq(1935, 2025, 5),
+    expand = expansion(
+      mult = c(0.01, 0.05),
+      add = c(0, 0)
+    )
+  ) +
+  scale_y_continuous(
+    limits = c(
+      0,
+      ceiling(max(df_all_crops$value, na.rm = TRUE) / 1e5 * 2) / 2 * 1e5
+    ),
+    breaks = seq(
+      0,
+      ceiling(max(df_all_crops$value, na.rm = TRUE) / 1e5 * 2) / 2,
+      by = 0.5
+    ) *
+      1e5,
+    labels = scales::label_number(suffix = " K", scale = 1e-3),
+    expand = c(0, 0)
+  ) +
+  scale_color_manual(
+    values = c(
+      "Wheat" = "#F2C94C",
+      "Barley" = "#5A9C5A",
+      "Oats" = "#A68A64",
+      "Maize" = "#E85C2A"
+    )
+  ) +
+  lemon::coord_capped_cart(
+    bottom = "none",
+    left = "none"
+  ) +
+  labs(
+    title = "New Zealand’s Cereal Yields Over Time: A Comparative Analysis of Wheat, Barley, Maize, and Oats",
+    subtitle = "How have New Zealand’s wheat, barley, maize, and oats yields evolved since 1935? An introduction to crop-specific trends and insights.",
+    caption = 'Author: Fabien Haury | Source: #Tidytuesday 2026-02-17',
+    x = "Year",
+    y = "Total yield (Tonnes)"
+  ) +
+  theme_global() +
+  theme_creme() +
+  guides(color = "none")
+
+# sauvegarder_graphique_ggplot(
+#   plt,
+#   "2026-02-17",
+#   "graph_crops_all.png",
+#   25,
+#   20,
+#   300,
+#   forcer = TRUE
+# )
