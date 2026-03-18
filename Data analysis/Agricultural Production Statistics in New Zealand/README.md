@@ -56,7 +56,7 @@ This analysis does not model causality or profitability; it focuses on long‑ru
 
 ## Related data visualisation
 
-Complementary data visualizations using the same dataset, focusing on sheep numbers and crop culture, are available [here](https://github.com/FabienHaury/TidyTuesday/tree/main/Data%20visualization/Agricultural%20Production%20Statistics%20in%20New%20Zealand). These visualizations are designed to showcase data presentation skills and provide a quick overview of key trends. <img src="https://img.shields.io/badge/Status-In%20progress-blue?style=flat" alt="Status In progress" width="80" />
+Complementary data visualizations using the same dataset, focusing on sheep numbers and crop culture, are available [here](https://github.com/FabienHaury/TidyTuesday/tree/main/Data%20visualization/Agricultural%20Production%20Statistics%20in%20New%20Zealand). These visualizations are designed to showcase data presentation skills and provide a quick overview of key trends.
 
 ---
 
